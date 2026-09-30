@@ -1,0 +1,4689 @@
+{
+  "success": true,
+  "message": "ok",
+  "data": {
+    "creation_policy": {
+      "can_create_plan": true,
+      "active_plan_count": 0,
+      "max_active_plans": 2,
+      "existing_plan_count": 0,
+      "free_plan_limit": 1,
+      "upgrade_required": false
+    },
+    "created_count": 35676,
+    "syllabus_source": "curated",
+    "plan_id": 64967,
+    "step": "draft_levels_confirmed",
+    "role": "Software Engineer",
+    "experience": "5+",
+    "interview_target": "FAANG",
+    "prefered_coding_language": "cpp",
+    "company_region": "india",
+    "subjects": [
+      {
+        "subject_slug": "dsa",
+        "selected": true,
+        "edited_level": "basic"
+      },
+      {
+        "subject_slug": "oops",
+        "selected": true,
+        "edited_level": "basic"
+      },
+      {
+        "subject_slug": "lld",
+        "selected": true,
+        "edited_level": "new_to_this"
+      }
+    ],
+    "syllabus_snapshot_id": 65713,
+    "syllabus_snapshot": {
+      "syllabus_snapshot_id": 65713,
+      "syllabus_snapshot_version": 1,
+      "syllabus_snapshot": {
+        "draft_plan_id": 64967,
+        "subjects": [
+          {
+            "subject_slug": "dsa",
+            "subject_name": "DSA",
+            "importance": "strongly_recommended",
+            "priority_rank": 1,
+            "selected_level": "basic",
+            "est_minutes": 6988,
+            "categories": [
+              {
+                "id": 2416,
+                "name": "Arrays",
+                "slug": "arrays",
+                "est_minutes": 536,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2417,
+                    "name": "Fundamentals",
+                    "slug": "fundamentals",
+                    "type": "study",
+                    "est_minutes": 50,
+                    "topics": [
+                      {
+                        "content_id": 41,
+                        "content_name": "Linear Search",
+                        "content_slug": "linear-search",
+                        "content_type": "Practice",
+                        "est_minutes": 4,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 38,
+                        "content_name": "Largest Element ",
+                        "content_slug": "largest-element",
+                        "content_type": "Practice",
+                        "est_minutes": 5,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 43,
+                        "content_name": "Second Largest Element",
+                        "content_slug": "second-largest-element",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 42,
+                        "content_name": "Maximum Consecutive Ones",
+                        "content_slug": "maximum-consecutive-ones",
+                        "content_type": "Practice",
+                        "est_minutes": 3,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 40,
+                        "content_name": "Left Rotate Array by One",
+                        "content_slug": "left-rotate-array-by-one",
+                        "content_type": "Practice",
+                        "est_minutes": 6,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 39,
+                        "content_name": "Left Rotate Array by K Places",
+                        "content_slug": "left-rotate-array",
+                        "content_type": "Practice",
+                        "est_minutes": 17,
+                        "rank": 5
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2418,
+                    "name": "Logic Building",
+                    "slug": "logic-building",
+                    "type": "study",
+                    "est_minutes": 71,
+                    "topics": [
+                      {
+                        "content_id": 46,
+                        "content_name": "Move Zeros to End",
+                        "content_slug": "move-zeros-to-end",
+                        "content_type": "Practice",
+                        "est_minutes": 13,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 47,
+                        "content_name": "Remove duplicates from sorted array",
+                        "content_slug": "remove-duplicates-from-sorted-array",
+                        "content_type": "Practice",
+                        "est_minutes": 11,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 44,
+                        "content_name": "Find missing number",
+                        "content_slug": "find-missing-number",
+                        "content_type": "Practice",
+                        "est_minutes": 18,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 48,
+                        "content_name": "Union of two sorted arrays",
+                        "content_slug": "union-of-two-sorted-arrays",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 45,
+                        "content_name": "Intersection of two sorted arrays",
+                        "content_slug": "intersection-of-two-sorted-arrays",
+                        "content_type": "Practice",
+                        "est_minutes": 13,
+                        "rank": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2419,
+                    "name": "FAQs(Medium)",
+                    "slug": "faqs-medium",
+                    "type": "study",
+                    "est_minutes": 245,
+                    "topics": [
+                      {
+                        "content_id": 22,
+                        "content_name": "Majority Element-I",
+                        "content_slug": "majority-element-i",
+                        "content_type": "Practice",
+                        "est_minutes": 17,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 30,
+                        "content_name": "Leaders in an Array",
+                        "content_slug": "leaders-in-an-array",
+                        "content_type": "Practice",
+                        "est_minutes": 11,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 34,
+                        "content_name": "Rearrange array elements by sign",
+                        "content_slug": "rearrange-array-elements-by-sign",
+                        "content_type": "Practice",
+                        "est_minutes": 9,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 33,
+                        "content_name": "Print the matrix in spiral manner",
+                        "content_slug": "print-the-matrix-in-spiral-manner",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 813,
+                        "content_name": "Pascal's Triangle I",
+                        "content_slug": "pascals-triangle-i",
+                        "content_type": "Practice",
+                        "est_minutes": 10,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 812,
+                        "content_name": "Pascal's Triangle II",
+                        "content_slug": "pascals-triangle-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 9,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 32,
+                        "content_name": "Pascal's Triangle III",
+                        "content_slug": "pascals-triangle-iii",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 35,
+                        "content_name": "Rotate matrix by 90 degrees",
+                        "content_slug": "rotate-matrix-by-90-degrees",
+                        "content_type": "Practice",
+                        "est_minutes": 17,
+                        "rank": 7
+                      },
+                      {
+                        "content_id": 37,
+                        "content_name": "Two Sum",
+                        "content_slug": "two-sum",
+                        "content_type": "Practice",
+                        "est_minutes": 17,
+                        "rank": 8
+                      },
+                      {
+                        "content_id": 27,
+                        "content_name": "3 Sum",
+                        "content_slug": "3-sum",
+                        "content_type": "Practice",
+                        "est_minutes": 37,
+                        "rank": 9
+                      },
+                      {
+                        "content_id": 28,
+                        "content_name": "4 Sum",
+                        "content_slug": "4-sum",
+                        "content_type": "Practice",
+                        "est_minutes": 27,
+                        "rank": 10
+                      },
+                      {
+                        "content_id": 36,
+                        "content_name": "Sort an array of 0's 1's and 2's",
+                        "content_slug": "sort-an-array-of-0's-1's-and-2's",
+                        "content_type": "Practice",
+                        "est_minutes": 24,
+                        "rank": 11
+                      },
+                      {
+                        "content_id": 29,
+                        "content_name": "Kadane's Algorithm",
+                        "content_slug": "kadane's-algorithm",
+                        "content_type": "Practice",
+                        "est_minutes": 19,
+                        "rank": 12
+                      },
+                      {
+                        "content_id": 31,
+                        "content_name": "Next Permutation",
+                        "content_slug": "next-permutation",
+                        "content_type": "Practice",
+                        "est_minutes": 26,
+                        "rank": 13
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2420,
+                    "name": "FAQs(Hard)",
+                    "slug": "faqs-hard",
+                    "type": "study",
+                    "est_minutes": 170,
+                    "topics": [
+                      {
+                        "content_id": 23,
+                        "content_name": "Majority Element-II",
+                        "content_slug": "majority-element-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 25,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 21,
+                        "content_name": "Find the repeating and missing number",
+                        "content_slug": "find-the-repeating-and-missing-number",
+                        "content_type": "Practice",
+                        "est_minutes": 41,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 20,
+                        "content_name": "Count Inversions",
+                        "content_slug": "count-inversions",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 26,
+                        "content_name": "Reverse Pairs",
+                        "content_slug": "reverse-pairs",
+                        "content_type": "Practice",
+                        "est_minutes": 31,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 24,
+                        "content_name": "Maximum Product Subarray in an Array",
+                        "content_slug": "maximum-product-subarray-in-an-array",
+                        "content_type": "Practice",
+                        "est_minutes": 18,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 25,
+                        "content_name": "Merge two sorted arrays without extra space",
+                        "content_slug": "merge-two-sorted-arrays-without-extra-space",
+                        "content_type": "Practice",
+                        "est_minutes": 32,
+                        "rank": 5
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2421,
+                "name": "Sorting",
+                "slug": "sorting",
+                "est_minutes": 120,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2422,
+                    "name": "Algorithms",
+                    "slug": "algorithms",
+                    "type": "study",
+                    "est_minutes": 120,
+                    "topics": [
+                      {
+                        "content_id": 947,
+                        "content_name": "Selection Sort",
+                        "content_slug": "selection-sort",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 943,
+                        "content_name": "Bubble Sort",
+                        "content_slug": "bubble-sort",
+                        "content_type": "Practice",
+                        "est_minutes": 14,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 944,
+                        "content_name": "Insertion Sorting",
+                        "content_slug": "insertion-sorting",
+                        "content_type": "Practice",
+                        "est_minutes": 11,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 945,
+                        "content_name": "Merge Sorting",
+                        "content_slug": "merge-sorting",
+                        "content_type": "Practice",
+                        "est_minutes": 47,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 946,
+                        "content_name": "Quick Sorting",
+                        "content_slug": "quick-sorting",
+                        "content_type": "Practice",
+                        "est_minutes": 33,
+                        "rank": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2423,
+                "name": "Hashing",
+                "slug": "hashing",
+                "est_minutes": 201,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2424,
+                    "name": "Theory",
+                    "slug": "theory",
+                    "type": "study",
+                    "est_minutes": 94,
+                    "topics": [
+                      {
+                        "content_id": 1203,
+                        "content_name": "Basic Hashing",
+                        "content_slug": "basic-hashing",
+                        "content_type": "Theory",
+                        "est_minutes": 94,
+                        "rank": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2425,
+                    "name": "FAQs",
+                    "slug": "faqs",
+                    "type": "study",
+                    "est_minutes": 107,
+                    "topics": [
+                      {
+                        "content_id": 563,
+                        "content_name": "Longest Consecutive Sequence in an Array",
+                        "content_slug": "longest-consecutive-sequence-in-an-array",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 564,
+                        "content_name": "Longest subarray with sum K",
+                        "content_slug": "longest-subarray-with-sum-k",
+                        "content_type": "Practice",
+                        "est_minutes": 40,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 561,
+                        "content_name": "Count subarrays with given sum",
+                        "content_slug": "count-subarrays-with-given-sum",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 562,
+                        "content_name": "Count subarrays with given xor K",
+                        "content_slug": "count-subarrays-with-given-xor-k",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2426,
+                "name": "Strings",
+                "slug": "strings",
+                "est_minutes": 87,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2427,
+                    "name": "String Fundamentals and Applications",
+                    "slug": "string-fundamentals-and-applications",
+                    "type": "study",
+                    "est_minutes": 87,
+                    "topics": [
+                      {
+                        "content_id": 397,
+                        "content_name": "Reverse a String II",
+                        "content_slug": "reverse-a-string-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 9,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 396,
+                        "content_name": "Palindrome Check",
+                        "content_slug": "palindrome-check",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 394,
+                        "content_name": "Largest Odd Number in a String",
+                        "content_slug": "largest-odd-number-in-a-string",
+                        "content_type": "Practice",
+                        "est_minutes": 11,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 395,
+                        "content_name": "Longest Common Prefix",
+                        "content_slug": "longest-common-prefix",
+                        "content_type": "Practice",
+                        "est_minutes": 11,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 393,
+                        "content_name": "Isomorphic Strings",
+                        "content_slug": "isomorphic-string",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 398,
+                        "content_name": "Rotate String",
+                        "content_slug": "rotate-string",
+                        "content_type": "Practice",
+                        "est_minutes": 13,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 400,
+                        "content_name": "Valid Anagram",
+                        "content_slug": "valid-anagram",
+                        "content_type": "Practice",
+                        "est_minutes": 8,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 399,
+                        "content_name": "Sort Characters by Frequency",
+                        "content_slug": "sort-characters-by-frequency",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 7
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2428,
+                "name": "Binary Search",
+                "slug": "binary-search",
+                "est_minutes": 546,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2429,
+                    "name": "Fundamentals",
+                    "slug": "fundamentals",
+                    "type": "study",
+                    "est_minutes": 53,
+                    "topics": [
+                      {
+                        "content_id": 81,
+                        "content_name": "Search X in sorted array",
+                        "content_slug": "search-x-in-sorted-array",
+                        "content_type": "Practice",
+                        "est_minutes": 33,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 80,
+                        "content_name": "Lower Bound ",
+                        "content_slug": "lower-bound-",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 82,
+                        "content_name": "Upper Bound",
+                        "content_slug": "upper-bound",
+                        "content_type": "Practice",
+                        "est_minutes": 4,
+                        "rank": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2430,
+                    "name": "Logic Building",
+                    "slug": "logic-building",
+                    "type": "study",
+                    "est_minutes": 99,
+                    "topics": [
+                      {
+                        "content_id": 89,
+                        "content_name": "Search insert position",
+                        "content_slug": "search-insert-position",
+                        "content_type": "Practice",
+                        "est_minutes": 3,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 86,
+                        "content_name": "Floor and Ceil in Sorted Array",
+                        "content_slug": "floor-and-ceil-in-sorted-array",
+                        "content_type": "Practice",
+                        "est_minutes": 6,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 85,
+                        "content_name": "First and last occurrence",
+                        "content_slug": "first-and-last-occurrence",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 87,
+                        "content_name": "Search in rotated sorted array-I",
+                        "content_slug": "search-in-rotated-sorted-array-i",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 88,
+                        "content_name": "Search in rotated sorted array-II",
+                        "content_slug": "search-in-rotated-sorted-array-2",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 83,
+                        "content_name": "Find minimum in Rotated Sorted Array",
+                        "content_slug": "find-minimum-in-rotated-sorted-array",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 84,
+                        "content_name": "Find out how many times the array is rotated",
+                        "content_slug": "find-out-how-many-times-the-array-is-rotated",
+                        "content_type": "Practice",
+                        "est_minutes": 4,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 90,
+                        "content_name": "Single element in sorted array",
+                        "content_slug": "single-element-in-sorted-array",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 7
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2431,
+                    "name": "On answers",
+                    "slug": "on-answers",
+                    "type": "study",
+                    "est_minutes": 97,
+                    "topics": [
+                      {
+                        "content_id": 92,
+                        "content_name": "Find square root of a number",
+                        "content_slug": "find-square-root-of-a-number",
+                        "content_type": "Practice",
+                        "est_minutes": 17,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 91,
+                        "content_name": "Find Nth root of a number",
+                        "content_slug": "find-nth-root-of-a-number",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 93,
+                        "content_name": "Find the smallest divisor",
+                        "content_slug": "find-the-smallest-divisor",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 94,
+                        "content_name": "Koko eating bananas",
+                        "content_slug": "koko-eating-bananas",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 95,
+                        "content_name": "Minimum days to make M bouquets",
+                        "content_slug": "minimum-days-to-make-m-bouquets",
+                        "content_type": "Practice",
+                        "est_minutes": 25,
+                        "rank": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2432,
+                    "name": "FAQs",
+                    "slug": "faqs",
+                    "type": "study",
+                    "est_minutes": 214,
+                    "topics": [
+                      {
+                        "content_id": 73,
+                        "content_name": "Aggressive Cows",
+                        "content_slug": "aggressive-cows",
+                        "content_type": "Practice",
+                        "est_minutes": 26,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 74,
+                        "content_name": "Book Allocation Problem",
+                        "content_slug": "book-allocation-problem",
+                        "content_type": "Practice",
+                        "est_minutes": 27,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 75,
+                        "content_name": "Find peak element",
+                        "content_slug": "find-peak-element",
+                        "content_type": "Practice",
+                        "est_minutes": 32,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 77,
+                        "content_name": "Median of 2 sorted arrays",
+                        "content_slug": "median-of-2-sorted-arrays",
+                        "content_type": "Practice",
+                        "est_minutes": 50,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 76,
+                        "content_name": "Kth element of 2 sorted arrays",
+                        "content_slug": "kth-element-of-2-sorted-arrays",
+                        "content_type": "Practice",
+                        "est_minutes": 10,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 78,
+                        "content_name": "Minimize Max Distance to Gas Station",
+                        "content_slug": "minimise-max-distance-to-gas-stations",
+                        "content_type": "Practice",
+                        "est_minutes": 58,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 79,
+                        "content_name": "Split array - largest sum",
+                        "content_slug": "split-array---largest-sum",
+                        "content_type": "Practice",
+                        "est_minutes": 11,
+                        "rank": 6
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2433,
+                    "name": "2D Arrays",
+                    "slug": "2d-arrays",
+                    "type": "study",
+                    "est_minutes": 83,
+                    "topics": [
+                      {
+                        "content_id": 66,
+                        "content_name": "Find row with maximum 1's",
+                        "content_slug": "find-row-with-maximum-1's",
+                        "content_type": "Practice",
+                        "est_minutes": 10,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 69,
+                        "content_name": "Search in a 2D Matrix",
+                        "content_slug": "search-in-a-2d-matrix",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 68,
+                        "content_name": "Search in 2D matrix - II",
+                        "content_slug": "search-in-2d-matrix-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 65,
+                        "content_name": "Find Peak Element - II",
+                        "content_slug": "find-peak-element-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 67,
+                        "content_name": "Matrix Median",
+                        "content_slug": "matrix-median",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2434,
+                "name": "Recursion",
+                "slug": "recursion",
+                "est_minutes": 374,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2435,
+                    "name": "Recursion Fundamentals",
+                    "slug": "recursion-fundamentals",
+                    "type": "study",
+                    "est_minutes": 58,
+                    "topics": [
+                      {
+                        "content_id": 1199,
+                        "content_name": "Recursion Theory",
+                        "content_slug": "recursion-theory",
+                        "content_type": "Theory",
+                        "est_minutes": 40,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 1198,
+                        "content_name": "Recursion Concepts with Parameters",
+                        "content_slug": "recursion-concepts-with-parameters",
+                        "content_type": "Theory",
+                        "est_minutes": 18,
+                        "rank": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2436,
+                    "name": "Implementation Problems",
+                    "slug": "implementation-problems",
+                    "type": "study",
+                    "est_minutes": 65,
+                    "topics": [
+                      {
+                        "content_id": 877,
+                        "content_name": "Pow(x,n)",
+                        "content_slug": "pow(x,n)",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 876,
+                        "content_name": "Generate Parentheses",
+                        "content_slug": "generate-parentheses",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 878,
+                        "content_name": "Power Set",
+                        "content_slug": "power-set",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2437,
+                    "name": "Subsequence Pattern Problems",
+                    "slug": "subsequence-pattern-problems",
+                    "type": "study",
+                    "est_minutes": 35,
+                    "topics": [
+                      {
+                        "content_id": 879,
+                        "content_name": "Check if there exists a subsequence with sum K",
+                        "content_slug": "check-if-there-exists-a-subsequence-with-sum-k",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 880,
+                        "content_name": "Count all subsequences with sum K",
+                        "content_slug": "count-all-subsequences-with-sum-k",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2438,
+                    "name": "FAQs (Medium)",
+                    "slug": "faqs-medium",
+                    "type": "study",
+                    "est_minutes": 71,
+                    "topics": [
+                      {
+                        "content_id": 864,
+                        "content_name": "Combination Sum",
+                        "content_slug": "combination-sum",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 865,
+                        "content_name": "Combination Sum II",
+                        "content_slug": "combination-sum-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 867,
+                        "content_name": "Subsets I",
+                        "content_slug": "subsets-i",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 868,
+                        "content_name": "Subsets II",
+                        "content_slug": "subsets-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 21,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 866,
+                        "content_name": "Combination Sum III",
+                        "content_slug": "combination-sum-iii",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2439,
+                    "name": "Hard",
+                    "slug": "hard",
+                    "type": "study",
+                    "est_minutes": 12,
+                    "topics": [
+                      {
+                        "content_id": 875,
+                        "content_name": "Letter Combinations of a Phone Number",
+                        "content_slug": "letter-combinations-of-a-phone-number",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2440,
+                    "name": "FAQs (Hard)",
+                    "slug": "faqs-hard",
+                    "type": "study",
+                    "est_minutes": 133,
+                    "topics": [
+                      {
+                        "content_id": 871,
+                        "content_name": "Palindrome partitioning",
+                        "content_slug": "palindrome-partitioning",
+                        "content_type": "Practice",
+                        "est_minutes": 18,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 874,
+                        "content_name": "Word Search",
+                        "content_slug": "word-search",
+                        "content_type": "Practice",
+                        "est_minutes": 19,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 870,
+                        "content_name": "N Queen",
+                        "content_slug": "n-queen",
+                        "content_type": "Practice",
+                        "est_minutes": 24,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 872,
+                        "content_name": "Rat in a Maze",
+                        "content_slug": "rat-in-a-maze",
+                        "content_type": "Practice",
+                        "est_minutes": 19,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 869,
+                        "content_name": "M Coloring Problem",
+                        "content_slug": "m-coloring-problem",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 873,
+                        "content_name": "Sudoku Solver",
+                        "content_slug": "sudoko-solver",
+                        "content_type": "Practice",
+                        "est_minutes": 31,
+                        "rank": 5
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2441,
+                "name": "Linked-List",
+                "slug": "linked-list",
+                "est_minutes": 685,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2442,
+                    "name": "Fundamentals (Single LL)",
+                    "slug": "fundamentals-single-ll",
+                    "type": "study",
+                    "est_minutes": 153,
+                    "topics": [
+                      {
+                        "content_id": 1237,
+                        "content_name": "Introduction to Singly LinkedList",
+                        "content_slug": "introduction-to-singly-linkedlist",
+                        "content_type": "Theory",
+                        "est_minutes": 37,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 624,
+                        "content_name": "Traversal in Linked List",
+                        "content_slug": "traversal-in-linked-list",
+                        "content_type": "Practice",
+                        "est_minutes": 3,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 1235,
+                        "content_name": "Deletion in Linked List",
+                        "content_slug": "deletion-in-linked-list",
+                        "content_type": "Theory",
+                        "est_minutes": 32,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 1236,
+                        "content_name": "Insertion in Linked List",
+                        "content_slug": "insertion-in-linked-list",
+                        "content_type": "Theory",
+                        "est_minutes": 24,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 352,
+                        "content_name": "Deletion of the head of LL",
+                        "content_slug": "deletion-of-the-head-of-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 6,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 354,
+                        "content_name": "Deletion of the tail of Linked List",
+                        "content_slug": "deletion-of-the-tail-of-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 10,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 353,
+                        "content_name": "Deletion of the Kth element of Linked List",
+                        "content_slug": "deletion-of-the-kth-element-of-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 351,
+                        "content_name": "Delete the element with value X",
+                        "content_slug": "delete-the-element-with-value-x",
+                        "content_type": "Practice",
+                        "est_minutes": 2,
+                        "rank": 7
+                      },
+                      {
+                        "content_id": 356,
+                        "content_name": "Insertion at the head of Linked List",
+                        "content_slug": "insertion-at-the-head-of-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 3,
+                        "rank": 8
+                      },
+                      {
+                        "content_id": 358,
+                        "content_name": "Insertion at the tail of Linked List",
+                        "content_slug": "insertion-at-the-tail-of-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 4,
+                        "rank": 9
+                      },
+                      {
+                        "content_id": 357,
+                        "content_name": "Insertion at the Kth position of Linked List",
+                        "content_slug": "insertion-at-the-kth-position-of-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 13,
+                        "rank": 10
+                      },
+                      {
+                        "content_id": 359,
+                        "content_name": "Insertion before the value X in Linked List",
+                        "content_slug": "insertion-before-the-value-x-in-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 4,
+                        "rank": 11
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2443,
+                    "name": "Fundamentals (Doubly LL)",
+                    "slug": "fundamentals-doubly-ll",
+                    "type": "study",
+                    "est_minutes": 98,
+                    "topics": [
+                      {
+                        "content_id": 1234,
+                        "content_name": "Introduction to Doubly LL",
+                        "content_slug": "introduction-to-doubly-ll",
+                        "content_type": "Theory",
+                        "est_minutes": 4,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 1232,
+                        "content_name": "Deletion in Doubly LL",
+                        "content_slug": "deletion-in-doubly-ll",
+                        "content_type": "Theory",
+                        "est_minutes": 30,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 1233,
+                        "content_name": "Insertion in DLL",
+                        "content_slug": "insertion-in-dll",
+                        "content_type": "Theory",
+                        "est_minutes": 15,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 347,
+                        "content_name": "Convert Array to Doubly Linked List",
+                        "content_slug": "convert-array-to-dll",
+                        "content_type": "Practice",
+                        "est_minutes": 10,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 350,
+                        "content_name": "Delete Tail of Doubly Linked List",
+                        "content_slug": "delete-tail-of-dll",
+                        "content_type": "Practice",
+                        "est_minutes": 5,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 349,
+                        "content_name": "Delete Kth Element of Doubly Linked List",
+                        "content_slug": "delete-kth-element-of-dll",
+                        "content_type": "Practice",
+                        "est_minutes": 14,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 363,
+                        "content_name": "Removing given node in Doubly Linked List",
+                        "content_slug": "removing-given-node-in-dll",
+                        "content_type": "Practice",
+                        "est_minutes": 5,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 361,
+                        "content_name": "Insert node before head in Doubly Linked List",
+                        "content_slug": "insert-node-before-head-in-dll",
+                        "content_type": "Practice",
+                        "est_minutes": 3,
+                        "rank": 7
+                      },
+                      {
+                        "content_id": 362,
+                        "content_name": "Insert node before tail in Doubly Linked List",
+                        "content_slug": "insert-node-before-tail-in-dll",
+                        "content_type": "Practice",
+                        "est_minutes": 5,
+                        "rank": 8
+                      },
+                      {
+                        "content_id": 360,
+                        "content_name": "Insert node before (kth node) in Doubly Linked List",
+                        "content_slug": "insert-node-before-kth-node-in-dll",
+                        "content_type": "Practice",
+                        "est_minutes": 5,
+                        "rank": 9
+                      },
+                      {
+                        "content_id": 355,
+                        "content_name": "Insert before given node in Doubly Linked List",
+                        "content_slug": "insert-before-given-node-in-dll",
+                        "content_type": "Practice",
+                        "est_minutes": 2,
+                        "rank": 10
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2444,
+                    "name": "Logic Building",
+                    "slug": "logic-building",
+                    "type": "study",
+                    "est_minutes": 108,
+                    "topics": [
+                      {
+                        "content_id": 625,
+                        "content_name": "Add two numbers in Linked List",
+                        "content_slug": "add-two-numbers-in-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 14,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 628,
+                        "content_name": "Segregate odd and even nodes in Linked List",
+                        "content_slug": "segregate-odd-and-even-nodes-in-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 24,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 629,
+                        "content_name": "Sort a Linked List of 0's 1's and 2's",
+                        "content_slug": "sort-a-ll-of-0's-1's-and-2's",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 626,
+                        "content_name": "Remove Nth node from the back of the LL",
+                        "content_slug": "remove-nth-node-from-the-back-of-the-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 627,
+                        "content_name": "Reverse a LL",
+                        "content_slug": "reverse-a-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 32,
+                        "rank": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2445,
+                    "name": "FAQs (Medium)",
+                    "slug": "faqs-medium",
+                    "type": "study",
+                    "est_minutes": 161,
+                    "topics": [
+                      {
+                        "content_id": 617,
+                        "content_name": "Add one to a number represented by LL",
+                        "content_slug": "add-one-to-a-number-represented-by-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 24,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 448,
+                        "content_name": "Find Middle of Linked List",
+                        "content_slug": "find-middle-of-linked-list",
+                        "content_type": "Practice",
+                        "est_minutes": 14,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 619,
+                        "content_name": "Delete the middle node in LL",
+                        "content_slug": "delete-the-middle-node-in-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 618,
+                        "content_name": "Check if LL is palindrome or not",
+                        "content_slug": "check-if-ll-is-palindrome-or-not",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 621,
+                        "content_name": "Find the intersection point of Y LL",
+                        "content_slug": "find-the-intersection-point-of-y-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 32,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 620,
+                        "content_name": "Detect a loop in LL",
+                        "content_slug": "detect-a-loop-in-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 622,
+                        "content_name": "Find the starting point in LL",
+                        "content_slug": "find-the-starting-point-in-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 21,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 623,
+                        "content_name": "Length of loop in LL",
+                        "content_slug": "length-of-loop-in-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 14,
+                        "rank": 7
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2446,
+                    "name": "FAQs (Hard)",
+                    "slug": "faqs-hard",
+                    "type": "study",
+                    "est_minutes": 142,
+                    "topics": [
+                      {
+                        "content_id": 614,
+                        "content_name": "Reverse LL in group of given size K",
+                        "content_slug": "reverse-ll-in-group-of-given-size-k",
+                        "content_type": "Practice",
+                        "est_minutes": 24,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 615,
+                        "content_name": "Rotate a LL",
+                        "content_slug": "rotate-a-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 613,
+                        "content_name": "Merge two Sorted Lists ",
+                        "content_slug": "merge-sorted-lists-",
+                        "content_type": "Practice",
+                        "est_minutes": 18,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 612,
+                        "content_name": "Flattening of LL",
+                        "content_slug": "flattening-of-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 33,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 616,
+                        "content_name": "Sort LL",
+                        "content_slug": "sort-ll",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 611,
+                        "content_name": "Clone a LL with random and next pointer",
+                        "content_slug": "clone-a-ll-with-random-and-next-pointer",
+                        "content_type": "Practice",
+                        "est_minutes": 33,
+                        "rank": 5
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2447,
+                    "name": "FAQS (DLL)",
+                    "slug": "faqs-dll",
+                    "type": "study",
+                    "est_minutes": 23,
+                    "topics": [
+                      {
+                        "content_id": 609,
+                        "content_name": "Delete all occurrences of a key in DLL",
+                        "content_slug": "delete-all-occurrences-of-a-key-in-dll",
+                        "content_type": "Practice",
+                        "est_minutes": 11,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 610,
+                        "content_name": "Remove duplicates from sorted DLL",
+                        "content_slug": "remove-duplicated-from-sorted-dll",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2448,
+                "name": "Bit Manipulation",
+                "slug": "bit-manipulation",
+                "est_minutes": 184,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2449,
+                    "name": "Theory",
+                    "slug": "theory",
+                    "type": "study",
+                    "est_minutes": 80,
+                    "topics": [
+                      {
+                        "content_id": 1155,
+                        "content_name": "Introduction to Bits and Tricks",
+                        "content_slug": "introduction-to-bits-and-tricks",
+                        "content_type": "Theory",
+                        "est_minutes": 80,
+                        "rank": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2450,
+                    "name": "Problems",
+                    "slug": "problems",
+                    "type": "study",
+                    "est_minutes": 104,
+                    "topics": [
+                      {
+                        "content_id": 141,
+                        "content_name": "Minimum Bit Flips to Convert Number",
+                        "content_slug": "minimum-bit-flips-to-convert-number",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 143,
+                        "content_name": "Single Number - I",
+                        "content_slug": "single-number---i",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 144,
+                        "content_name": "Single Number - II",
+                        "content_slug": "single-number---ii",
+                        "content_type": "Practice",
+                        "est_minutes": 30,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 145,
+                        "content_name": "Single Number - III",
+                        "content_slug": "single-number---iii",
+                        "content_type": "Practice",
+                        "est_minutes": 24,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 140,
+                        "content_name": "Divide two numbers without multiplication and division",
+                        "content_slug": "divide-two-numbers-without-multiplication-and-division",
+                        "content_type": "Practice",
+                        "est_minutes": 19,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 142,
+                        "content_name": "Power Set Bit Manipulation",
+                        "content_slug": "power-set-bit-manipulation",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 146,
+                        "content_name": "XOR of numbers in a given range",
+                        "content_slug": "xor-of-numbers-in-a-given-range",
+                        "content_type": "Practice",
+                        "est_minutes": 5,
+                        "rank": 6
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2451,
+                "name": "Sliding Window / 2 Pointer",
+                "slug": "sliding-window-2-pointer",
+                "est_minutes": 242,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2452,
+                    "name": "Pattern and Template",
+                    "slug": "pattern-and-template",
+                    "type": "study",
+                    "est_minutes": 36,
+                    "topics": [
+                      {
+                        "content_id": 1254,
+                        "content_name": "Theory",
+                        "content_slug": "theory",
+                        "content_type": "Theory",
+                        "est_minutes": 36,
+                        "rank": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2453,
+                    "name": "Constant Window",
+                    "slug": "constant-window",
+                    "type": "study",
+                    "est_minutes": 11,
+                    "topics": [
+                      {
+                        "content_id": 922,
+                        "content_name": "Maximum Points You Can Obtain from Cards ",
+                        "content_slug": "maximum-points-you-can-obtain-from-cards-",
+                        "content_type": "Practice",
+                        "est_minutes": 11,
+                        "rank": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2454,
+                    "name": "Longest and Smallest Window Problems",
+                    "slug": "longest-and-smallest-window-problems",
+                    "type": "study",
+                    "est_minutes": 152,
+                    "topics": [
+                      {
+                        "content_id": 929,
+                        "content_name": "Longest Substring Without Repeating Characters",
+                        "content_slug": "longest-substring-without-repeating-characters",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 930,
+                        "content_name": " Max Consecutive Ones III",
+                        "content_slug": "max-consecutive-ones-iii",
+                        "content_type": "Practice",
+                        "est_minutes": 29,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 926,
+                        "content_name": " Fruit Into Baskets",
+                        "content_slug": "fruit-into-baskets",
+                        "content_type": "Practice",
+                        "est_minutes": 29,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 928,
+                        "content_name": "Longest Substring With At Most K Distinct Characters",
+                        "content_slug": "longest-substring-with-at-most-k-distinct-characters",
+                        "content_type": "Practice",
+                        "est_minutes": 21,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 927,
+                        "content_name": "Longest Repeating Character Replacement",
+                        "content_slug": "longest-repeating-character-replacement",
+                        "content_type": "Practice",
+                        "est_minutes": 25,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 931,
+                        "content_name": "Minimum Window Substring ",
+                        "content_slug": "minimum-window-substring-",
+                        "content_type": "Practice",
+                        "est_minutes": 26,
+                        "rank": 5
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2455,
+                    "name": "Counting Subarrays / Substrings Problems",
+                    "slug": "counting-subarrays-substrings-problems",
+                    "type": "study",
+                    "est_minutes": 43,
+                    "topics": [
+                      {
+                        "content_id": 925,
+                        "content_name": "Number of Substrings Containing All Three Characters",
+                        "content_slug": "number-of-substrings-containing-all-three-characters",
+                        "content_type": "Practice",
+                        "est_minutes": 19,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 923,
+                        "content_name": "Binary Subarrays With Sum",
+                        "content_slug": "binary-subarrays-with-sum",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 924,
+                        "content_name": "Count number of Nice subarrays",
+                        "content_slug": "count-number-of-nice-subarrays",
+                        "content_type": "Practice",
+                        "est_minutes": 4,
+                        "rank": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2456,
+                "name": "Stack / Queues",
+                "slug": "stack-queues",
+                "est_minutes": 446,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2457,
+                    "name": "Implementation",
+                    "slug": "implementation",
+                    "type": "study",
+                    "est_minutes": 130,
+                    "topics": [
+                      {
+                        "content_id": 1256,
+                        "content_name": "Implementation using different DS",
+                        "content_slug": "implementation-using-different-ds",
+                        "content_type": "Theory",
+                        "est_minutes": 64,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 390,
+                        "content_name": "Implement Stack using Arrays",
+                        "content_slug": "implement-stack-using-arrays",
+                        "content_type": "Practice",
+                        "est_minutes": 8,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 387,
+                        "content_name": "Implement Queue using Arrays",
+                        "content_slug": "implement-queue-using-arrays",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 392,
+                        "content_name": "Implement Stack using Queue",
+                        "content_slug": "implement-stack-using-queue",
+                        "content_type": "Practice",
+                        "est_minutes": 6,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 389,
+                        "content_name": "Implement Queue using Stack",
+                        "content_slug": "implement-queue-using-stack",
+                        "content_type": "Practice",
+                        "est_minutes": 14,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 391,
+                        "content_name": "Implement stack using Linkedlist",
+                        "content_slug": "implement-stack-using-linkedlist",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 388,
+                        "content_name": "Implement queue using Linkedlist",
+                        "content_slug": "implement-queue-using-linkedlist",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 966,
+                        "content_name": "Balanced Paranthesis",
+                        "content_slug": "balanced-paranthesis",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 7
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2458,
+                    "name": "Monotonic Stack",
+                    "slug": "monotonic-stack",
+                    "type": "study",
+                    "est_minutes": 98,
+                    "topics": [
+                      {
+                        "content_id": 968,
+                        "content_name": "Next Greater Element",
+                        "content_slug": "next-greater-element",
+                        "content_type": "Practice",
+                        "est_minutes": 18,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 969,
+                        "content_name": "Next Greater Element - 2",
+                        "content_slug": "next-greater-element---2",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 967,
+                        "content_name": "Asteroid Collision",
+                        "content_slug": "asteroid-collision",
+                        "content_type": "Practice",
+                        "est_minutes": 17,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 971,
+                        "content_name": "Sum of Subarray Minimums",
+                        "content_slug": "sum-of-subarray-minimums",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 972,
+                        "content_name": "Sum of Subarray Ranges",
+                        "content_slug": "sum-of-subarray-ranges",
+                        "content_type": "Practice",
+                        "est_minutes": 10,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 970,
+                        "content_name": "Remove K Digits",
+                        "content_slug": "remove-k-digits",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 5
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2459,
+                    "name": "FAQs",
+                    "slug": "faqs",
+                    "type": "study",
+                    "est_minutes": 218,
+                    "topics": [
+                      {
+                        "content_id": 958,
+                        "content_name": "Implement Min Stack",
+                        "content_slug": "implement-min-stack",
+                        "content_type": "Practice",
+                        "est_minutes": 21,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 963,
+                        "content_name": "Sliding Window Maximum",
+                        "content_slug": "sliding-window-maximum",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 965,
+                        "content_name": "Trapping Rainwater",
+                        "content_slug": "trapping-rainwater",
+                        "content_type": "Practice",
+                        "est_minutes": 29,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 959,
+                        "content_name": "Largest rectangle in a histogram",
+                        "content_slug": "largest-rectangle-in-a-histogram",
+                        "content_type": "Practice",
+                        "est_minutes": 31,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 962,
+                        "content_name": "Maximum Rectangles",
+                        "content_slug": "maximum-rectangles",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 964,
+                        "content_name": "Stock span problem",
+                        "content_slug": "stock-span-problem",
+                        "content_type": "Practice",
+                        "est_minutes": 19,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 957,
+                        "content_name": "Celebrity Problem",
+                        "content_slug": "celebrity-problem",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 961,
+                        "content_name": "LRU Cache",
+                        "content_slug": "lru-cache",
+                        "content_type": "Practice",
+                        "est_minutes": 25,
+                        "rank": 7
+                      },
+                      {
+                        "content_id": 960,
+                        "content_name": "LFU Cache",
+                        "content_slug": "lfu-cache",
+                        "content_type": "Practice",
+                        "est_minutes": 45,
+                        "rank": 8
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2460,
+                "name": "Greedy Algorithms",
+                "slug": "greedy-algorithms",
+                "est_minutes": 159,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2461,
+                    "name": "Easy",
+                    "slug": "easy",
+                    "type": "study",
+                    "est_minutes": 29,
+                    "topics": [
+                      {
+                        "content_id": 541,
+                        "content_name": "Assign Cookies",
+                        "content_slug": "assign-cookies",
+                        "content_type": "Practice",
+                        "est_minutes": 10,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 543,
+                        "content_name": "Lemonade Change",
+                        "content_slug": "lemonade-change",
+                        "content_type": "Practice",
+                        "est_minutes": 9,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 542,
+                        "content_name": "Jump Game - I",
+                        "content_slug": "jump-game---i",
+                        "content_type": "Practice",
+                        "est_minutes": 10,
+                        "rank": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2462,
+                    "name": "Scheduling and Interval Problems",
+                    "slug": "scheduling-and-interval-problems",
+                    "type": "study",
+                    "est_minutes": 75,
+                    "topics": [
+                      {
+                        "content_id": 551,
+                        "content_name": "Shortest Job First",
+                        "content_slug": "shortest-job-first",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 547,
+                        "content_name": "Job sequencing Problem",
+                        "content_slug": "job-sequencing-problem",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 549,
+                        "content_name": "N meetings in one room",
+                        "content_slug": "n-meetings-in-one-room",
+                        "content_type": "Practice",
+                        "est_minutes": 13,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 550,
+                        "content_name": "Non-overlapping Intervals",
+                        "content_slug": "non-overlapping-intervals",
+                        "content_type": "Practice",
+                        "est_minutes": 8,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 546,
+                        "content_name": "Insert Interval",
+                        "content_slug": "insert-interval",
+                        "content_type": "Practice",
+                        "est_minutes": 13,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 548,
+                        "content_name": "Minimum number of platforms required for a railway",
+                        "content_slug": "minimum-number-of-platforms-required-for-a-railway",
+                        "content_type": "Practice",
+                        "est_minutes": 18,
+                        "rank": 5
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2463,
+                    "name": "Hard",
+                    "slug": "hard",
+                    "type": "study",
+                    "est_minutes": 55,
+                    "topics": [
+                      {
+                        "content_id": 545,
+                        "content_name": "Valid Paranthesis Checker",
+                        "content_slug": "valid-paranthesis-checker",
+                        "content_type": "Practice",
+                        "est_minutes": 25,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 544,
+                        "content_name": "Candy",
+                        "content_slug": "candy",
+                        "content_type": "Practice",
+                        "est_minutes": 30,
+                        "rank": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2464,
+                "name": "Binary Trees",
+                "slug": "binary-trees",
+                "est_minutes": 423,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2465,
+                    "name": "Theory/Traversals",
+                    "slug": "theory-traversals",
+                    "type": "study",
+                    "est_minutes": 119,
+                    "topics": [
+                      {
+                        "content_id": 1154,
+                        "content_name": "Introduction ",
+                        "content_slug": "introduction-",
+                        "content_type": "Theory",
+                        "est_minutes": 32,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 133,
+                        "content_name": "Inorder Traversal",
+                        "content_slug": "inorder-traversal",
+                        "content_type": "Practice",
+                        "est_minutes": 37,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 137,
+                        "content_name": "Preorder Traversal",
+                        "content_slug": "preorder-traversal",
+                        "content_type": "Practice",
+                        "est_minutes": 18,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 135,
+                        "content_name": "Postorder Traversal",
+                        "content_slug": "postorder-traversal",
+                        "content_type": "Practice",
+                        "est_minutes": 14,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 134,
+                        "content_name": "Level Order Traversal",
+                        "content_slug": "level-order-traversal",
+                        "content_type": "Practice",
+                        "est_minutes": 8,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 136,
+                        "content_name": "Pre, Post, Inorder in one traversal",
+                        "content_slug": "pre,-post,-inorder-in-one-traversal",
+                        "content_type": "Practice",
+                        "est_minutes": 10,
+                        "rank": 5
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2466,
+                    "name": "Medium Problems",
+                    "slug": "medium-problems",
+                    "type": "study",
+                    "est_minutes": 61,
+                    "topics": [
+                      {
+                        "content_id": 131,
+                        "content_name": "Maximum Depth in BT",
+                        "content_slug": "maximum-depth-in-bt",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 129,
+                        "content_name": "Check if two trees are identical or not",
+                        "content_slug": "check-if-two-trees-are-identical-or-not",
+                        "content_type": "Practice",
+                        "est_minutes": 4,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 127,
+                        "content_name": "Check for balanced binary tree",
+                        "content_slug": "check-for-balanced-binary-tree",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 130,
+                        "content_name": "Diameter of Binary Tree",
+                        "content_slug": "diameter-of-binary-tree",
+                        "content_type": "Practice",
+                        "est_minutes": 13,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 132,
+                        "content_name": "Maximum path sum ",
+                        "content_slug": "maximum-path-sum-",
+                        "content_type": "Practice",
+                        "est_minutes": 17,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 128,
+                        "content_name": "Check for symmetrical BTs",
+                        "content_slug": "check-for-symmetrical-bts",
+                        "content_type": "Practice",
+                        "est_minutes": 8,
+                        "rank": 5
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2467,
+                    "name": "FAQs",
+                    "slug": "faqs",
+                    "type": "study",
+                    "est_minutes": 160,
+                    "topics": [
+                      {
+                        "content_id": 126,
+                        "content_name": "Zig Zag or Spiral Traversal",
+                        "content_slug": "zig-zag-or-spiral-traversal",
+                        "content_type": "Practice",
+                        "est_minutes": 8,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 116,
+                        "content_name": "Boundary Traversal",
+                        "content_slug": "boundary-traversal",
+                        "content_type": "Practice",
+                        "est_minutes": 9,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 125,
+                        "content_name": "Vertical Order Traversal",
+                        "content_slug": "vertical-order-traversal",
+                        "content_type": "Practice",
+                        "est_minutes": 18,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 124,
+                        "content_name": "Top View of BT",
+                        "content_slug": "top-view-of-bt",
+                        "content_type": "Practice",
+                        "est_minutes": 9,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 115,
+                        "content_name": "Bottom view of BT",
+                        "content_slug": "bottom-view-of-bt",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 123,
+                        "content_name": "Right/Left View of BT",
+                        "content_slug": "right-left-view-of-bt",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 122,
+                        "content_name": "Print root to leaf path in BT",
+                        "content_slug": "print-root-to-leaf-path-in-bt",
+                        "content_type": "Practice",
+                        "est_minutes": 10,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 118,
+                        "content_name": "LCA in BT",
+                        "content_slug": "lca-in-bt",
+                        "content_type": "Practice",
+                        "est_minutes": 13,
+                        "rank": 7
+                      },
+                      {
+                        "content_id": 119,
+                        "content_name": "Maximum Width of BT",
+                        "content_slug": "maximum-width-of-bt",
+                        "content_type": "Practice",
+                        "est_minutes": 21,
+                        "rank": 8
+                      },
+                      {
+                        "content_id": 121,
+                        "content_name": "Print all nodes at a distance of K in BT",
+                        "content_slug": "print-all-nodes-at-a-distance-of-k-in-bt",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 9
+                      },
+                      {
+                        "content_id": 120,
+                        "content_name": "Minimum time taken to burn the BT from a given Node",
+                        "content_slug": "minimum-time-taken-to-burn-the-bt-from-a-given-node",
+                        "content_type": "Practice",
+                        "est_minutes": 17,
+                        "rank": 10
+                      },
+                      {
+                        "content_id": 117,
+                        "content_name": "Count total nodes in a complete BT",
+                        "content_slug": "count-total-nodes-in-a-complete-bt",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 11
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2468,
+                    "name": "Construction Problems",
+                    "slug": "construction-problems",
+                    "type": "study",
+                    "est_minutes": 60,
+                    "topics": [
+                      {
+                        "content_id": 111,
+                        "content_name": "Requirements needed to construct a unique BT",
+                        "content_slug": "requirements-needed-to-construct-a-unique-bt",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 110,
+                        "content_name": "Construct a BT from Preorder and Inorder",
+                        "content_slug": "construct-a-bt-from-preorder-and-inorder",
+                        "content_type": "Practice",
+                        "est_minutes": 18,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 109,
+                        "content_name": "Construct a BT from Postorder and Inorder",
+                        "content_slug": "construct-a-bt-from-postorder-and-inorder",
+                        "content_type": "Practice",
+                        "est_minutes": 19,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 112,
+                        "content_name": "Serialize and De-serialize BT",
+                        "content_slug": "serialize-and-de-serialize-bt",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2469,
+                    "name": "Traversal in Constant Space",
+                    "slug": "traversal-in-constant-space",
+                    "type": "study",
+                    "est_minutes": 23,
+                    "topics": [
+                      {
+                        "content_id": 139,
+                        "content_name": "Morris Inorder Traversal ",
+                        "content_slug": "morris-inorder-traversal-",
+                        "content_type": "Practice",
+                        "est_minutes": 19,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 138,
+                        "content_name": "Morris Preorder Traversal ",
+                        "content_slug": "morris-preorder-traversal-",
+                        "content_type": "Practice",
+                        "est_minutes": 4,
+                        "rank": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2470,
+                "name": "Binary Search Trees",
+                "slug": "binary-search-trees",
+                "est_minutes": 154,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2471,
+                    "name": "Theory and Basics",
+                    "slug": "theory-and-basics",
+                    "type": "study",
+                    "est_minutes": 20,
+                    "topics": [
+                      {
+                        "content_id": 1153,
+                        "content_name": "Introduction to BST",
+                        "content_slug": "introduction-to-bst",
+                        "content_type": "Theory",
+                        "est_minutes": 7,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 108,
+                        "content_name": "Search in BST",
+                        "content_slug": "search-in-bst",
+                        "content_type": "Practice",
+                        "est_minutes": 5,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 107,
+                        "content_name": "Floor and Ceil in a BST",
+                        "content_slug": "floor-and-ceil-in-a-bst",
+                        "content_type": "Practice",
+                        "est_minutes": 8,
+                        "rank": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2472,
+                    "name": "Medium",
+                    "slug": "medium",
+                    "type": "study",
+                    "est_minutes": 73,
+                    "topics": [
+                      {
+                        "content_id": 104,
+                        "content_name": "Insert a given node in BST",
+                        "content_slug": "insert-a-given-node-in-bst",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 102,
+                        "content_name": "Delete a node in BST",
+                        "content_slug": "delete-a-node-in-bst",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 105,
+                        "content_name": "Kth Smallest and Largest element in BST",
+                        "content_slug": "kth-smallest-and-largest-element-in-bst",
+                        "content_type": "Practice",
+                        "est_minutes": 8,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 100,
+                        "content_name": "Check if a tree is a BST or not",
+                        "content_slug": "check-if-a-tree-is-a-bst-or-not",
+                        "content_type": "Practice",
+                        "est_minutes": 9,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 106,
+                        "content_name": "LCA in BST",
+                        "content_slug": "lca-in-bst",
+                        "content_type": "Practice",
+                        "est_minutes": 8,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 101,
+                        "content_name": "Construct a BST from a preorder traversal",
+                        "content_slug": "construct-a-bst-from-a-preorder-traversal",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 103,
+                        "content_name": "Inorder successor and predecessor in BST",
+                        "content_slug": "inorder-successor-and-predecessor-in-bst",
+                        "content_type": "Practice",
+                        "est_minutes": 10,
+                        "rank": 6
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2473,
+                    "name": "FAQs",
+                    "slug": "faqs",
+                    "type": "study",
+                    "est_minutes": 61,
+                    "topics": [
+                      {
+                        "content_id": 96,
+                        "content_name": "BST iterator",
+                        "content_slug": "bst-iterator",
+                        "content_type": "Practice",
+                        "est_minutes": 14,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 99,
+                        "content_name": "Two sum in BST",
+                        "content_slug": "two-sum-in-bst",
+                        "content_type": "Practice",
+                        "est_minutes": 14,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 97,
+                        "content_name": "Correct BST with two nodes swapped",
+                        "content_slug": "correct-bst-with-two-nodes-swapped",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 98,
+                        "content_name": "Largest BST in Binary Tree",
+                        "content_slug": "largest-bst-in-binary-tree",
+                        "content_type": "Practice",
+                        "est_minutes": 17,
+                        "rank": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2474,
+                "name": "Heaps",
+                "slug": "heaps",
+                "est_minutes": 198,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2475,
+                    "name": "Theory and Implementation",
+                    "slug": "theory-and-implementation",
+                    "type": "study",
+                    "est_minutes": 182,
+                    "topics": [
+                      {
+                        "content_id": 1223,
+                        "content_name": "Heaps (Theory Video)",
+                        "content_slug": "heaps-theory",
+                        "content_type": "Theory",
+                        "est_minutes": 27,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 573,
+                        "content_name": "Heapify Algorithm",
+                        "content_slug": "heapify-algorithm",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 570,
+                        "content_name": "Build heap from a given Array",
+                        "content_slug": "build-heap-from-a-given-array",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 576,
+                        "content_name": "Implement Min Heap",
+                        "content_slug": "implement-min-heap",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 575,
+                        "content_name": "Implement Max Heap",
+                        "content_slug": "implement-max-heap",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 571,
+                        "content_name": "Check if an array represents a min heap ",
+                        "content_slug": "check-if-an-array-represents-a-min-heap-",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 572,
+                        "content_name": "Convert Min Heap to Max Heap",
+                        "content_slug": "convert-min-heap-to-max-heap",
+                        "content_type": "Practice",
+                        "est_minutes": 4,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 574,
+                        "content_name": "Heap Sort",
+                        "content_slug": "heap-sort",
+                        "content_type": "Practice",
+                        "est_minutes": 30,
+                        "rank": 7
+                      },
+                      {
+                        "content_id": 578,
+                        "content_name": "K-th Largest element in an array",
+                        "content_slug": "k-th-largest-element-in-an-array",
+                        "content_type": "Practice",
+                        "est_minutes": 44,
+                        "rank": 8
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2476,
+                    "name": "FAQs",
+                    "slug": "faqs",
+                    "type": "study",
+                    "est_minutes": 16,
+                    "topics": [
+                      {
+                        "content_id": 567,
+                        "content_name": "Kth largest element in a stream of running integers",
+                        "content_slug": "kth-largest-element-in-a-stream-of-running-integers",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2477,
+                "name": "Graphs",
+                "slug": "graphs",
+                "est_minutes": 1061,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2478,
+                    "name": "Theory and traversals",
+                    "slug": "theory-and-traversals",
+                    "type": "study",
+                    "est_minutes": 87,
+                    "topics": [
+                      {
+                        "content_id": 1222,
+                        "content_name": "Introduction to Graph",
+                        "content_slug": "introduction-to-graph",
+                        "content_type": "Theory",
+                        "est_minutes": 41,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 529,
+                        "content_name": "Traversal Techniques",
+                        "content_slug": "traversal-techniques",
+                        "content_type": "Practice",
+                        "est_minutes": 39,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 528,
+                        "content_name": "Connected Components",
+                        "content_slug": "connected-components",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2479,
+                    "name": "Traversal Problems",
+                    "slug": "traversal-problems",
+                    "type": "study",
+                    "est_minutes": 157,
+                    "topics": [
+                      {
+                        "content_id": 535,
+                        "content_name": "Number of provinces",
+                        "content_slug": "number-of-provinces",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 534,
+                        "content_name": "Number of islands",
+                        "content_slug": "number-of-islands",
+                        "content_type": "Practice",
+                        "est_minutes": 24,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 531,
+                        "content_name": "Flood fill algorithm",
+                        "content_slug": "flood-fill-algorithm",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 533,
+                        "content_name": "Number of enclaves",
+                        "content_slug": "number-of-enclaves",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 536,
+                        "content_name": "Rotten Oranges",
+                        "content_slug": "rotten-oranges",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 530,
+                        "content_name": "Distance of nearest cell having one",
+                        "content_slug": "distance-of-nearest-cell-having-one",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 537,
+                        "content_name": "Surrounded Regions",
+                        "content_slug": "surrounded-regions",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 532,
+                        "content_name": "Number of distinct islands",
+                        "content_slug": "number-of-distinct-islands",
+                        "content_type": "Practice",
+                        "est_minutes": 18,
+                        "rank": 7
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2480,
+                    "name": "Cycles",
+                    "slug": "cycles",
+                    "type": "study",
+                    "est_minutes": 119,
+                    "topics": [
+                      {
+                        "content_id": 501,
+                        "content_name": "Detect a cycle in an undirected graph",
+                        "content_slug": "detect-a-cycle-in-an-undirected-graph",
+                        "content_type": "Practice",
+                        "est_minutes": 38,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 499,
+                        "content_name": "Bipartite graph",
+                        "content_slug": "bipartite-graph",
+                        "content_type": "Practice",
+                        "est_minutes": 32,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 502,
+                        "content_name": "Topological sort or Kahn's algorithm",
+                        "content_slug": "topological-sort-or-kahns-algorithm",
+                        "content_type": "Practice",
+                        "est_minutes": 26,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 500,
+                        "content_name": "Detect a cycle in a directed graph",
+                        "content_slug": "detect-a-cycle-in-a-directed-graph",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 3
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2481,
+                    "name": "Hard Problems",
+                    "slug": "hard-problems",
+                    "type": "study",
+                    "est_minutes": 199,
+                    "topics": [
+                      {
+                        "content_id": 506,
+                        "content_name": "Find eventual safe states",
+                        "content_slug": "find-eventual-safe-states",
+                        "content_type": "Practice",
+                        "est_minutes": 39,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 504,
+                        "content_name": "Course Schedule I",
+                        "content_slug": "course-schedule-i",
+                        "content_type": "Practice",
+                        "est_minutes": 11,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 505,
+                        "content_name": "Course Schedule II",
+                        "content_slug": "course-schedule-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 11,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 503,
+                        "content_name": "Alien Dictionary",
+                        "content_slug": "alient-dictionary",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 507,
+                        "content_name": "Shortest path in DAG",
+                        "content_slug": "shortest-path-in-dag",
+                        "content_type": "Practice",
+                        "est_minutes": 26,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 508,
+                        "content_name": "Shortest path in undirected graph with unit weights",
+                        "content_slug": "shortest-path-in-undirected-graph-with-unit-weights",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 509,
+                        "content_name": "Word ladder I",
+                        "content_slug": "word-ladder-i",
+                        "content_type": "Practice",
+                        "est_minutes": 28,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 510,
+                        "content_name": "Word ladder II",
+                        "content_slug": "word-ladder-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 48,
+                        "rank": 7
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2482,
+                    "name": "Shortest Path Algorithms",
+                    "slug": "shortest-path-algorithms",
+                    "type": "study",
+                    "est_minutes": 245,
+                    "topics": [
+                      {
+                        "content_id": 520,
+                        "content_name": "Dijkstra's algorithm",
+                        "content_slug": "dijkstra's-algorithm",
+                        "content_type": "Practice",
+                        "est_minutes": 47,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 526,
+                        "content_name": "Print Shortest Path ",
+                        "content_slug": "print-shortest-path-",
+                        "content_type": "Practice",
+                        "est_minutes": 19,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 527,
+                        "content_name": "Shortest Distance in a Binary Maze",
+                        "content_slug": "shortest-path-with-minimum-effort",
+                        "content_type": "Practice",
+                        "est_minutes": 21,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 525,
+                        "content_name": "Path with minimum effort",
+                        "content_slug": "path-with-minimum-effort",
+                        "content_type": "Practice",
+                        "est_minutes": 24,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 519,
+                        "content_name": "Cheapest flight within K stops",
+                        "content_slug": "cheapest-flight-within-k-stops",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 523,
+                        "content_name": "Minimum multiplications to reach end",
+                        "content_slug": "minimum-multiplications-to-reach-end",
+                        "content_type": "Practice",
+                        "est_minutes": 19,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 524,
+                        "content_name": "Number of ways to arrive at destination",
+                        "content_slug": "number-of-ways-to-arrive-at-destination",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 518,
+                        "content_name": "Bellman ford algorithm",
+                        "content_slug": "bellman-ford-algorithm",
+                        "content_type": "Practice",
+                        "est_minutes": 27,
+                        "rank": 7
+                      },
+                      {
+                        "content_id": 522,
+                        "content_name": "Floyd warshall algorithm",
+                        "content_slug": "floyd-warshall-algorithm",
+                        "content_type": "Practice",
+                        "est_minutes": 30,
+                        "rank": 8
+                      },
+                      {
+                        "content_id": 521,
+                        "content_name": "Find the city with the smallest number of neighbors",
+                        "content_slug": "find-the-city-with-the-smallest-number-of-neighbors",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 9
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2483,
+                    "name": "Minimum Spanning Tree",
+                    "slug": "minimum-spanning-tree",
+                    "type": "study",
+                    "est_minutes": 79,
+                    "topics": [
+                      {
+                        "content_id": 1221,
+                        "content_name": "MST theory",
+                        "content_slug": "mst-theory",
+                        "content_type": "Theory",
+                        "est_minutes": 7,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 516,
+                        "content_name": "Disjoint Set ",
+                        "content_slug": "disjoint-set-",
+                        "content_type": "Practice",
+                        "est_minutes": 41,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 517,
+                        "content_name": "Find the MST weight",
+                        "content_slug": "find-the-mst-weight",
+                        "content_type": "Practice",
+                        "est_minutes": 31,
+                        "rank": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2484,
+                    "name": "Hard Problems II",
+                    "slug": "hard-problems-ii",
+                    "type": "study",
+                    "est_minutes": 109,
+                    "topics": [
+                      {
+                        "content_id": 515,
+                        "content_name": "Number of operations to make network connected",
+                        "content_slug": "number-of-operations-to-make-network-connected",
+                        "content_type": "Practice",
+                        "est_minutes": 14,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 511,
+                        "content_name": "Accounts merge",
+                        "content_slug": "accounts-merge",
+                        "content_type": "Practice",
+                        "est_minutes": 21,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 514,
+                        "content_name": "Number of islands II",
+                        "content_slug": "number-of-islands-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 25,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 512,
+                        "content_name": "Making a large island",
+                        "content_slug": "making-a-large-island",
+                        "content_type": "Practice",
+                        "est_minutes": 26,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 513,
+                        "content_name": "Most stones removed with same row or column",
+                        "content_slug": "most-stones-removed-with-same-row-or-column",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2485,
+                    "name": "Additional Algorithms",
+                    "slug": "additional-algorithms",
+                    "type": "study",
+                    "est_minutes": 66,
+                    "topics": [
+                      {
+                        "content_id": 498,
+                        "content_name": "Kosaraju's algorithm",
+                        "content_slug": "kosaraju's-algorithm",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 497,
+                        "content_name": "Bridges in graph",
+                        "content_slug": "bridges-in-graph",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 496,
+                        "content_name": "Articulation point in graph",
+                        "content_slug": "articulation-point-in-graph",
+                        "content_type": "Practice",
+                        "est_minutes": 21,
+                        "rank": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2486,
+                "name": "Dynamic Programming",
+                "slug": "dynamic-programming",
+                "est_minutes": 1194,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2487,
+                    "name": "Introduction",
+                    "slug": "introduction",
+                    "type": "study",
+                    "est_minutes": 30,
+                    "topics": [
+                      {
+                        "content_id": 1195,
+                        "content_name": "Introduction to DP",
+                        "content_slug": "introduction-to-dp",
+                        "content_type": "Theory",
+                        "est_minutes": 30,
+                        "rank": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2488,
+                    "name": "1D DP",
+                    "slug": "1d-dp",
+                    "type": "study",
+                    "est_minutes": 106,
+                    "topics": [
+                      {
+                        "content_id": 287,
+                        "content_name": "Climbing stairs",
+                        "content_slug": "climbing-stairs",
+                        "content_type": "Practice",
+                        "est_minutes": 13,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 288,
+                        "content_name": "Frog Jump",
+                        "content_slug": "frog-jump",
+                        "content_type": "Practice",
+                        "est_minutes": 37,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 289,
+                        "content_name": "Frog jump with K distances",
+                        "content_slug": "frog-jump-with-k-distances",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 291,
+                        "content_name": "Maximum sum of non adjacent elements",
+                        "content_slug": "maximum-sum-of-non-adjacent-elements",
+                        "content_type": "Practice",
+                        "est_minutes": 31,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 290,
+                        "content_name": "House robber",
+                        "content_slug": "house-robber",
+                        "content_type": "Practice",
+                        "est_minutes": 9,
+                        "rank": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2489,
+                    "name": "2D DP",
+                    "slug": "2d-dp",
+                    "type": "study",
+                    "est_minutes": 51,
+                    "topics": [
+                      {
+                        "content_id": 292,
+                        "content_name": "Ninja's training",
+                        "content_slug": "ninja's-training",
+                        "content_type": "Practice",
+                        "est_minutes": 51,
+                        "rank": 0
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2490,
+                    "name": "DP on grids",
+                    "slug": "dp-on-grids",
+                    "type": "study",
+                    "est_minutes": 172,
+                    "topics": [
+                      {
+                        "content_id": 297,
+                        "content_name": "Grid unique paths",
+                        "content_slug": "grid-unique-paths",
+                        "content_type": "Practice",
+                        "est_minutes": 44,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 300,
+                        "content_name": "Unique paths II",
+                        "content_slug": "unique-paths-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 298,
+                        "content_name": "Minimum Falling Path Sum",
+                        "content_slug": "minimum-falling-path-sum",
+                        "content_type": "Practice",
+                        "est_minutes": 41,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 299,
+                        "content_name": "Triangle",
+                        "content_slug": "triangle",
+                        "content_type": "Practice",
+                        "est_minutes": 33,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 296,
+                        "content_name": "Cherry pickup II",
+                        "content_slug": "cherry-pickup-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 42,
+                        "rank": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2491,
+                    "name": "DP on stocks",
+                    "slug": "dp-on-stocks",
+                    "type": "study",
+                    "est_minutes": 85,
+                    "topics": [
+                      {
+                        "content_id": 301,
+                        "content_name": "Best time to buy and sell stock",
+                        "content_slug": "best-time-to-buy-and-sell-stock",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 302,
+                        "content_name": "Best time to buy and sell stock II",
+                        "content_slug": "best-time-to-buy-and-sell-stock-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 35,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 303,
+                        "content_name": "Best time to buy and sell stock III",
+                        "content_slug": "best-time-to-buy-and-sell-stock-iii",
+                        "content_type": "Practice",
+                        "est_minutes": 25,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 304,
+                        "content_name": "Best time to buy and sell stock IV",
+                        "content_slug": "best-time-to-buy-and-sell-stock-iv",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 305,
+                        "content_name": "Best time to buy and sell stock with transaction fees",
+                        "content_slug": "best-time-to-buy-and-sell-stock-with-cooldown-and-transaction-fees",
+                        "content_type": "Practice",
+                        "est_minutes": 6,
+                        "rank": 4
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2492,
+                    "name": "DP on subsequences",
+                    "slug": "dp-on-subsequences",
+                    "type": "study",
+                    "est_minutes": 271,
+                    "topics": [
+                      {
+                        "content_id": 323,
+                        "content_name": "Subset sum equals to target",
+                        "content_slug": "subset-sum-equals-to-target",
+                        "content_type": "Practice",
+                        "est_minutes": 35,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 321,
+                        "content_name": "Partition equal subset sum",
+                        "content_slug": "partition-equal-subset-sum",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 320,
+                        "content_name": "Partition a set into two subsets with minimum absolute sum difference",
+                        "content_slug": "partition-a-set-into-two-subsets-with-minimum-absolute-sum-difference",
+                        "content_type": "Practice",
+                        "est_minutes": 29,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 318,
+                        "content_name": "Count subsets with sum K",
+                        "content_slug": "count-subsets-with-sum-k",
+                        "content_type": "Practice",
+                        "est_minutes": 35,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 317,
+                        "content_name": "Count partitions with given difference",
+                        "content_slug": "count-partitions-with-given-difference",
+                        "content_type": "Practice",
+                        "est_minutes": 17,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 315,
+                        "content_name": "0 and 1 Knapsack",
+                        "content_slug": "0-and-1-knapsack",
+                        "content_type": "Practice",
+                        "est_minutes": 40,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 319,
+                        "content_name": "Minimum coins",
+                        "content_slug": "minimum-coins",
+                        "content_type": "Practice",
+                        "est_minutes": 34,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 324,
+                        "content_name": "Target sum",
+                        "content_slug": "target-sum",
+                        "content_type": "Practice",
+                        "est_minutes": 8,
+                        "rank": 7
+                      },
+                      {
+                        "content_id": 316,
+                        "content_name": "Coin change II",
+                        "content_slug": "coin-change-ii",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 8
+                      },
+                      {
+                        "content_id": 325,
+                        "content_name": "Unbounded knapsack",
+                        "content_slug": "unbounded-knapsack",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 9
+                      },
+                      {
+                        "content_id": 322,
+                        "content_name": "Rod cutting problem",
+                        "content_slug": "rod-cutting-problem",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 10
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2493,
+                    "name": "LIS",
+                    "slug": "lis",
+                    "type": "study",
+                    "est_minutes": 129,
+                    "topics": [
+                      {
+                        "content_id": 636,
+                        "content_name": "Longest Increasing Subsequence",
+                        "content_slug": "longest-increasing-subsequence",
+                        "content_type": "Practice",
+                        "est_minutes": 40,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 851,
+                        "content_name": "Print Longest Increasing Subsequence",
+                        "content_slug": "print-longest-increasing-subsequence",
+                        "content_type": "Practice",
+                        "est_minutes": 26,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 603,
+                        "content_name": "Largest Divisible Subset",
+                        "content_slug": "largest-divisible-subset",
+                        "content_type": "Practice",
+                        "est_minutes": 14,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 640,
+                        "content_name": "Longest String Chain",
+                        "content_slug": "longest-string-chain",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 633,
+                        "content_name": "Longest Bitonic Subsequence",
+                        "content_slug": "longest-bitonic-subsequence",
+                        "content_type": "Practice",
+                        "est_minutes": 13,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 780,
+                        "content_name": "Number of Longest Increasing Subsequences",
+                        "content_slug": "number-of-longest-increasing-subsequences",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 5
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2494,
+                    "name": "DP on strings",
+                    "slug": "dp-on-strings",
+                    "type": "study",
+                    "est_minutes": 234,
+                    "topics": [
+                      {
+                        "content_id": 308,
+                        "content_name": "Longest common subsequence",
+                        "content_slug": "longest-common-subsequence",
+                        "content_type": "Practice",
+                        "est_minutes": 46,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 309,
+                        "content_name": "Longest common substring",
+                        "content_slug": "longest-common-substring",
+                        "content_type": "Practice",
+                        "est_minutes": 14,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 310,
+                        "content_name": "Longest palindromic subsequence",
+                        "content_slug": "longest-palindromic-subsequence",
+                        "content_type": "Practice",
+                        "est_minutes": 9,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 312,
+                        "content_name": "Minimum insertions to make string palindrome",
+                        "content_slug": "minimum-insertions-to-make-string-palindrome",
+                        "content_type": "Practice",
+                        "est_minutes": 12,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 311,
+                        "content_name": "Minimum insertions or deletions to convert string A to B",
+                        "content_slug": "minimum-insertions-or-deletions-to-convert-string-a-to-b",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 4
+                      },
+                      {
+                        "content_id": 313,
+                        "content_name": "Shortest common supersequence",
+                        "content_slug": "shortest-common-supersequence",
+                        "content_type": "Practice",
+                        "est_minutes": 26,
+                        "rank": 5
+                      },
+                      {
+                        "content_id": 306,
+                        "content_name": "Distinct subsequences",
+                        "content_slug": "distinct-subsequences",
+                        "content_type": "Practice",
+                        "est_minutes": 40,
+                        "rank": 6
+                      },
+                      {
+                        "content_id": 307,
+                        "content_name": "Edit distance",
+                        "content_slug": "edit-distance",
+                        "content_type": "Practice",
+                        "est_minutes": 37,
+                        "rank": 7
+                      },
+                      {
+                        "content_id": 314,
+                        "content_name": "Wildcard matching",
+                        "content_slug": "wildcard-matching",
+                        "content_type": "Practice",
+                        "est_minutes": 43,
+                        "rank": 8
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2495,
+                    "name": "MCM DP",
+                    "slug": "mcm-dp",
+                    "type": "study",
+                    "est_minutes": 116,
+                    "topics": [
+                      {
+                        "content_id": 327,
+                        "content_name": "Matrix chain multiplication",
+                        "content_slug": "matrix-chain-multiplication",
+                        "content_type": "Practice",
+                        "est_minutes": 61,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 326,
+                        "content_name": "Burst balloons",
+                        "content_slug": "burst-balloons",
+                        "content_type": "Practice",
+                        "est_minutes": 33,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 329,
+                        "content_name": "Palindrome partitioning II ",
+                        "content_slug": "palindrome-partitioning-ii-",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2496,
+                "name": "Tries",
+                "slug": "tries",
+                "est_minutes": 151,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2497,
+                    "name": "Theory",
+                    "slug": "theory",
+                    "type": "study",
+                    "est_minutes": 52,
+                    "topics": [
+                      {
+                        "content_id": 1028,
+                        "content_name": "Trie Implementation and Operations",
+                        "content_slug": "trie-implementation-and-operations",
+                        "content_type": "Practice",
+                        "est_minutes": 30,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 1027,
+                        "content_name": "Trie Implementation and Advanced Operations",
+                        "content_slug": "trie-implementation-and-advanced-operations",
+                        "content_type": "Practice",
+                        "est_minutes": 22,
+                        "rank": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2498,
+                    "name": "Problems",
+                    "slug": "problems",
+                    "type": "study",
+                    "est_minutes": 99,
+                    "topics": [
+                      {
+                        "content_id": 1023,
+                        "content_name": "Longest Word with All Prefixes",
+                        "content_slug": "longest-word-with-all-prefixes",
+                        "content_type": "Practice",
+                        "est_minutes": 25,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 1026,
+                        "content_name": "Number of distinct substrings in a string",
+                        "content_slug": "number-of-distinct-substrings-in-a-string",
+                        "content_type": "Practice",
+                        "est_minutes": 17,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 1024,
+                        "content_name": "Maximum XOR of two numbers in an array",
+                        "content_slug": "maximum-xor-of-two-numbers-in-an-array",
+                        "content_type": "Practice",
+                        "est_minutes": 34,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 1025,
+                        "content_name": "Maximum Xor with an element from an array",
+                        "content_slug": "maximum-xor-with-an-element-from-an-array",
+                        "content_type": "Practice",
+                        "est_minutes": 23,
+                        "rank": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2499,
+                "name": "Strings (Advanced Algo)",
+                "slug": "strings-advanced-algo",
+                "est_minutes": 178,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2500,
+                    "name": "Medium Problems",
+                    "slug": "medium-problems",
+                    "type": "study",
+                    "est_minutes": 70,
+                    "topics": [
+                      {
+                        "content_id": 984,
+                        "content_name": "Reverse every word in a string",
+                        "content_slug": "reverse-every-word-in-a-string",
+                        "content_type": "Practice",
+                        "est_minutes": 31,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 983,
+                        "content_name": "Minimum number of bracket reversals to make an expression balanced",
+                        "content_slug": "minimum-number-of-bracket-reversals-to-make-an-expression-balanced",
+                        "content_type": "Practice",
+                        "est_minutes": 20,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 982,
+                        "content_name": "Count and say",
+                        "content_slug": "count-and-say",
+                        "content_type": "Practice",
+                        "est_minutes": 19,
+                        "rank": 2
+                      }
+                    ]
+                  },
+                  {
+                    "id": 2501,
+                    "name": "Advanced Problems (Less asked)",
+                    "slug": "advanced-problems-less-asked",
+                    "type": "study",
+                    "est_minutes": 108,
+                    "topics": [
+                      {
+                        "content_id": 979,
+                        "content_name": "Rabin Karp Algorithm",
+                        "content_slug": "rabin-karp-algorithm",
+                        "content_type": "Practice",
+                        "est_minutes": 34,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 981,
+                        "content_name": "Z function",
+                        "content_slug": "z-function",
+                        "content_type": "Practice",
+                        "est_minutes": 35,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 977,
+                        "content_name": "KMP Algorithm or LPS array",
+                        "content_slug": "kmp-algorithm-or-lps-array",
+                        "content_type": "Practice",
+                        "est_minutes": 29,
+                        "rank": 2
+                      },
+                      {
+                        "content_id": 980,
+                        "content_name": "Shortest Palindrome",
+                        "content_slug": "shortest-palindrome",
+                        "content_type": "Practice",
+                        "est_minutes": 7,
+                        "rank": 3
+                      },
+                      {
+                        "content_id": 978,
+                        "content_name": "Longest happy prefix",
+                        "content_slug": "longest-happy-prefix",
+                        "content_type": "Practice",
+                        "est_minutes": 3,
+                        "rank": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 2502,
+                "name": "Maths",
+                "slug": "maths",
+                "est_minutes": 49,
+                "topics": [],
+                "subcategories": [
+                  {
+                    "id": 2503,
+                    "name": "Sieve of Eratosthenes",
+                    "slug": "sieve-of-eratosthenes",
+                    "type": "study",
+                    "est_minutes": 49,
+                    "topics": [
+                      {
+                        "content_id": 653,
+                        "content_name": "Print all primes till N",
+                        "content_slug": "print-all-primes-till-n",
+                        "content_type": "Practice",
+                        "est_minutes": 18,
+                        "rank": 0
+                      },
+                      {
+                        "content_id": 652,
+                        "content_name": "Prime factorisation of a Number",
+                        "content_slug": "prime-factorisation-of-a-number",
+                        "content_type": "Practice",
+                        "est_minutes": 15,
+                        "rank": 1
+                      },
+                      {
+                        "content_id": 651,
+                        "content_name": "Count primes in range L to R",
+                        "content_slug": "count-primes-in-range-l-to-r",
+                        "content_type": "Practice",
+                        "est_minutes": 16,
+                        "rank": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "subject_slug": "oops",
+            "subject_name": "OOPS",
+            "importance": "strongly_recommended",
+            "priority_rank": 2,
+            "selected_level": "basic",
+            "est_minutes": 993,
+            "categories": [
+              {
+                "id": 2109,
+                "name": "Introduction to OOPS",
+                "slug": "introduction-to-oops",
+                "est_minutes": 300,
+                "topics": [
+                  {
+                    "content_id": 1212,
+                    "content_name": "Java Basics",
+                    "content_slug": "java-basics",
+                    "content_type": "Theory",
+                    "est_minutes": 96,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 1267,
+                    "content_name": "What is OOPS",
+                    "content_slug": "what-is-oops",
+                    "content_type": "Theory",
+                    "est_minutes": 16,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 1160,
+                    "content_name": "Classes and Objects",
+                    "content_slug": "classes-and-objects",
+                    "content_type": "Theory",
+                    "est_minutes": 15,
+                    "rank": 2
+                  },
+                  {
+                    "content_id": 831,
+                    "content_name": "Practice (Classes and Objects)",
+                    "content_slug": "practice-classes-and-objects",
+                    "content_type": "Practice",
+                    "est_minutes": 45,
+                    "rank": 3
+                  },
+                  {
+                    "content_id": 1152,
+                    "content_name": "Attributes and Methods",
+                    "content_slug": "attributes-and-methods",
+                    "content_type": "Theory",
+                    "est_minutes": 16,
+                    "rank": 4
+                  },
+                  {
+                    "content_id": 830,
+                    "content_name": "Practice (Attributes and Methods)",
+                    "content_slug": "practice-attributes-and-methods",
+                    "content_type": "Practice",
+                    "est_minutes": 45,
+                    "rank": 5
+                  },
+                  {
+                    "content_id": 1163,
+                    "content_name": "Constructors",
+                    "content_slug": "constructors",
+                    "content_type": "Theory",
+                    "est_minutes": 22,
+                    "rank": 6
+                  },
+                  {
+                    "content_id": 833,
+                    "content_name": "Practice (Constructors)",
+                    "content_slug": "practice-constructors",
+                    "content_type": "Practice",
+                    "est_minutes": 45,
+                    "rank": 7
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 2110,
+                "name": "Core Principles of OOPS",
+                "slug": "core-principles-of-oops",
+                "est_minutes": 257,
+                "topics": [
+                  {
+                    "content_id": 1196,
+                    "content_name": "Encapsulation",
+                    "content_slug": "encapsulation",
+                    "content_type": "Theory",
+                    "est_minutes": 8,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 835,
+                    "content_name": "Practice (Encapsulation)",
+                    "content_slug": "practice-encapsulation",
+                    "content_type": "Practice",
+                    "est_minutes": 45,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 1149,
+                    "content_name": "Access Modifiers",
+                    "content_slug": "access-modifiers",
+                    "content_type": "Theory",
+                    "est_minutes": 17,
+                    "rank": 2
+                  },
+                  {
+                    "content_id": 829,
+                    "content_name": "Practice (Access Modifiers)",
+                    "content_slug": "practice-access-modifiers",
+                    "content_type": "Practice",
+                    "est_minutes": 45,
+                    "rank": 3
+                  },
+                  {
+                    "content_id": 1224,
+                    "content_name": "Inheritance",
+                    "content_slug": "inheritance",
+                    "content_type": "Theory",
+                    "est_minutes": 36,
+                    "rank": 4
+                  },
+                  {
+                    "content_id": 839,
+                    "content_name": "Practice (Inheritance)",
+                    "content_slug": "practice-inheritance",
+                    "content_type": "Practice",
+                    "est_minutes": 45,
+                    "rank": 5
+                  },
+                  {
+                    "content_id": 1248,
+                    "content_name": "Polymorphism",
+                    "content_slug": "polymorphism",
+                    "content_type": "Theory",
+                    "est_minutes": 16,
+                    "rank": 6
+                  },
+                  {
+                    "content_id": 845,
+                    "content_name": "Practice (Polymorphism)",
+                    "content_slug": "practice-polymorphism",
+                    "content_type": "Practice",
+                    "est_minutes": 45,
+                    "rank": 7
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 2111,
+                "name": "Advance OOPS features",
+                "slug": "advance-oops-features",
+                "est_minutes": 204,
+                "topics": [
+                  {
+                    "content_id": 1148,
+                    "content_name": "Abstraction",
+                    "content_slug": "abstraction",
+                    "content_type": "Theory",
+                    "est_minutes": 29,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 828,
+                    "content_name": "Practice (Abstraction)",
+                    "content_slug": "practice-abstraction",
+                    "content_type": "Practice",
+                    "est_minutes": 45,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 1227,
+                    "content_name": "Interfaces",
+                    "content_slug": "interfaces",
+                    "content_type": "Theory",
+                    "est_minutes": 20,
+                    "rank": 2
+                  },
+                  {
+                    "content_id": 841,
+                    "content_name": "Practice (Interfaces)",
+                    "content_slug": "practice-interfaces",
+                    "content_type": "Practice",
+                    "est_minutes": 45,
+                    "rank": 3
+                  },
+                  {
+                    "content_id": 1258,
+                    "content_name": "Static Keyword",
+                    "content_slug": "static-keyword",
+                    "content_type": "Theory",
+                    "est_minutes": 20,
+                    "rank": 4
+                  },
+                  {
+                    "content_id": 847,
+                    "content_name": "Practice (Static Keyword)",
+                    "content_slug": "practice-static-keyword",
+                    "content_type": "Practice",
+                    "est_minutes": 45,
+                    "rank": 5
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 2112,
+                "name": "Relationships and Object Behaviour",
+                "slug": "relationships-and-object-behaviour",
+                "est_minutes": 128,
+                "topics": [
+                  {
+                    "content_id": 1151,
+                    "content_name": "Association, Aggregation, and Composition",
+                    "content_slug": "association-aggregation-and-composition",
+                    "content_type": "Theory",
+                    "est_minutes": 23,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 832,
+                    "content_name": "Practice (Composition)",
+                    "content_slug": "practice-composition",
+                    "content_type": "Practice",
+                    "est_minutes": 45,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 1244,
+                    "content_name": "Object Cloning",
+                    "content_slug": "object-cloning",
+                    "content_type": "Theory",
+                    "est_minutes": 15,
+                    "rank": 2
+                  },
+                  {
+                    "content_id": 843,
+                    "content_name": "Practice (Object Cloning)",
+                    "content_slug": "practice-object-cloning",
+                    "content_type": "Practice",
+                    "est_minutes": 45,
+                    "rank": 3
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 2113,
+                "name": "Advance Programming in OOPS",
+                "slug": "advance-programming-in-oops",
+                "est_minutes": 63,
+                "topics": [
+                  {
+                    "content_id": 1197,
+                    "content_name": "Exception Handling",
+                    "content_slug": "exception-handling",
+                    "content_type": "Theory",
+                    "est_minutes": 34,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 1220,
+                    "content_name": "Generics",
+                    "content_slug": "generics",
+                    "content_type": "Theory",
+                    "est_minutes": 29,
+                    "rank": 1
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 2114,
+                "name": "OOP Design and Lifecycle Management",
+                "slug": "oop-design-and-lifecycle-management",
+                "est_minutes": 41,
+                "topics": [
+                  {
+                    "content_id": 1167,
+                    "content_name": "Design Principles",
+                    "content_slug": "design-principles",
+                    "content_type": "Theory",
+                    "est_minutes": 23,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 1245,
+                    "content_name": "Object Lifecycle",
+                    "content_slug": "object-lifecycle",
+                    "content_type": "Theory",
+                    "est_minutes": 18,
+                    "rank": 1
+                  }
+                ],
+                "subcategories": []
+              }
+            ]
+          },
+          {
+            "subject_slug": "lld",
+            "subject_name": "LLD",
+            "importance": "strongly_recommended",
+            "priority_rank": 3,
+            "selected_level": "new_to_this",
+            "est_minutes": 1860,
+            "categories": [
+              {
+                "id": 131,
+                "name": "Introduction to LLD",
+                "slug": "introduction-to-lld",
+                "est_minutes": 44,
+                "topics": [
+                  {
+                    "content_id": 1229,
+                    "content_name": "Introduction to Low Level Design",
+                    "content_slug": "introduction-to-low-level-design",
+                    "content_type": "Theory",
+                    "est_minutes": 21,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 1255,
+                    "content_name": "Software Design Principles",
+                    "content_slug": "software-design-principles",
+                    "content_type": "Theory",
+                    "est_minutes": 23,
+                    "rank": 1
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 197,
+                "name": "Solid Principles",
+                "slug": "solid-principles",
+                "est_minutes": 75,
+                "topics": [
+                  {
+                    "content_id": 1252,
+                    "content_name": "Single Responsibility Principle (SRP)",
+                    "content_slug": "single-responsibility-principle",
+                    "content_type": "Theory",
+                    "est_minutes": 16,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 1247,
+                    "content_name": "Open Closed Principle (OCP)",
+                    "content_slug": "open-closed-principle",
+                    "content_type": "Theory",
+                    "est_minutes": 17,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 1238,
+                    "content_name": "Liskov Substitution Principle (LSP)",
+                    "content_slug": "liskov-substitution-principle",
+                    "content_type": "Theory",
+                    "est_minutes": 18,
+                    "rank": 2
+                  },
+                  {
+                    "content_id": 1226,
+                    "content_name": "Interface Segregation Principle (ISP)",
+                    "content_slug": "interface-segregation-principle",
+                    "content_type": "Theory",
+                    "est_minutes": 10,
+                    "rank": 3
+                  },
+                  {
+                    "content_id": 1166,
+                    "content_name": "Dependency Inversion Principle (DIP)",
+                    "content_slug": "dependency-inversion-principle",
+                    "content_type": "Theory",
+                    "est_minutes": 14,
+                    "rank": 4
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 222,
+                "name": "UML",
+                "slug": "uml",
+                "est_minutes": 48,
+                "topics": [
+                  {
+                    "content_id": 1265,
+                    "content_name": "Unified Modeling Language (UML)",
+                    "content_slug": "unified-modeling-language",
+                    "content_type": "Theory",
+                    "est_minutes": 10,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 1159,
+                    "content_name": "Class UML diagrams",
+                    "content_slug": "class-uml-diagrams",
+                    "content_type": "Theory",
+                    "est_minutes": 38,
+                    "rank": 1
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 35,
+                "name": "Creational Design Patterns",
+                "slug": "creational-design-patterns",
+                "est_minutes": 121,
+                "topics": [
+                  {
+                    "content_id": 1228,
+                    "content_name": "Introduction to Design Patterns",
+                    "content_slug": "introduction-to-design-patterns",
+                    "content_type": "Theory",
+                    "est_minutes": 10,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 1253,
+                    "content_name": "Singleton Design Pattern",
+                    "content_slug": "singleton-design-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 25,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 1207,
+                    "content_name": "Factory Method",
+                    "content_slug": "factory-method",
+                    "content_type": "Theory",
+                    "est_minutes": 16,
+                    "rank": 2
+                  },
+                  {
+                    "content_id": 1157,
+                    "content_name": "Builder Pattern",
+                    "content_slug": "builder-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 24,
+                    "rank": 3
+                  },
+                  {
+                    "content_id": 1147,
+                    "content_name": "Abstract Factory",
+                    "content_slug": "abstract-factory",
+                    "content_type": "Theory",
+                    "est_minutes": 26,
+                    "rank": 4
+                  },
+                  {
+                    "content_id": 1249,
+                    "content_name": "Prototype Pattern",
+                    "content_slug": "prototype-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 20,
+                    "rank": 5
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 209,
+                "name": "Structural Design Patterns",
+                "slug": "structural-design-patterns",
+                "est_minutes": 135,
+                "topics": [
+                  {
+                    "content_id": 1150,
+                    "content_name": "Adapter Pattern",
+                    "content_slug": "adapter-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 17,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 1165,
+                    "content_name": "Decorator Pattern",
+                    "content_slug": "decorator-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 26,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 1206,
+                    "content_name": "Facade Pattern",
+                    "content_slug": "facade-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 17,
+                    "rank": 2
+                  },
+                  {
+                    "content_id": 1162,
+                    "content_name": "Composite Pattern",
+                    "content_slug": "composite-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 21,
+                    "rank": 3
+                  },
+                  {
+                    "content_id": 1250,
+                    "content_name": "Proxy Pattern",
+                    "content_slug": "proxy-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 17,
+                    "rank": 4
+                  },
+                  {
+                    "content_id": 1156,
+                    "content_name": "Bridge Pattern",
+                    "content_slug": "bridge-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 18,
+                    "rank": 5
+                  },
+                  {
+                    "content_id": 1209,
+                    "content_name": "Flyweight Pattern",
+                    "content_slug": "flyweight-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 19,
+                    "rank": 6
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 17,
+                "name": "Behavioural Design Patterns",
+                "slug": "behavioural-design-patterns",
+                "est_minutes": 192,
+                "topics": [
+                  {
+                    "content_id": 1230,
+                    "content_name": "Iterator Pattern",
+                    "content_slug": "iterator-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 25,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 1246,
+                    "content_name": "Observer Pattern",
+                    "content_slug": "observer-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 18,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 1259,
+                    "content_name": "Strategy Pattern",
+                    "content_slug": "strategy-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 12,
+                    "rank": 2
+                  },
+                  {
+                    "content_id": 1161,
+                    "content_name": "Command Pattern",
+                    "content_slug": "command-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 28,
+                    "rank": 3
+                  },
+                  {
+                    "content_id": 1260,
+                    "content_name": "Template Method",
+                    "content_slug": "template-method",
+                    "content_type": "Theory",
+                    "est_minutes": 17,
+                    "rank": 4
+                  },
+                  {
+                    "content_id": 1257,
+                    "content_name": "State Pattern",
+                    "content_slug": "state-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 21,
+                    "rank": 5
+                  },
+                  {
+                    "content_id": 1158,
+                    "content_name": "Chain of Responsibility",
+                    "content_slug": "chain-of-responsibility",
+                    "content_type": "Theory",
+                    "est_minutes": 17,
+                    "rank": 6
+                  },
+                  {
+                    "content_id": 1266,
+                    "content_name": "Visitor Pattern",
+                    "content_slug": "visitor-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 23,
+                    "rank": 7
+                  },
+                  {
+                    "content_id": 1240,
+                    "content_name": "Mediator Pattern",
+                    "content_slug": "mediator-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 14,
+                    "rank": 8
+                  },
+                  {
+                    "content_id": 1241,
+                    "content_name": "Memento Pattern",
+                    "content_slug": "memento-pattern",
+                    "content_type": "Theory",
+                    "est_minutes": 17,
+                    "rank": 9
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 149,
+                "name": "Multithreading and Concurrency",
+                "slug": "multithreading-and-concurrency",
+                "est_minutes": 210,
+                "topics": [
+                  {
+                    "content_id": 1243,
+                    "content_name": "Multithreading and Concurrency",
+                    "content_slug": "multithreading-and-concurrency",
+                    "content_type": "Theory",
+                    "est_minutes": 40,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 1164,
+                    "content_name": "Creating and Managing Threads",
+                    "content_slug": "creating-and-managing-threads",
+                    "content_type": "Theory",
+                    "est_minutes": 35,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 1262,
+                    "content_name": "Thread Pools and Executors",
+                    "content_slug": "thread-pools-and-executors",
+                    "content_type": "Theory",
+                    "est_minutes": 32,
+                    "rank": 2
+                  },
+                  {
+                    "content_id": 1263,
+                    "content_name": "Thread Safety and Synchronization",
+                    "content_slug": "thread-safety-and-synchronization",
+                    "content_type": "Theory",
+                    "est_minutes": 29,
+                    "rank": 3
+                  },
+                  {
+                    "content_id": 1239,
+                    "content_name": "Locks and Synchronization Mechanism",
+                    "content_slug": "locks-and-synchronization-mechanism",
+                    "content_type": "Theory",
+                    "est_minutes": 31,
+                    "rank": 4
+                  },
+                  {
+                    "content_id": 3027,
+                    "content_name": "Deadlock and Prevention Techniques",
+                    "content_slug": "deadlock-and-prevention-techniques",
+                    "content_type": "Theory",
+                    "est_minutes": 26,
+                    "rank": 5
+                  },
+                  {
+                    "content_id": 1473,
+                    "content_name": "Producer Consumer Problem",
+                    "content_slug": "producer-consumer-problem",
+                    "content_type": "Theory",
+                    "est_minutes": 17,
+                    "rank": 6
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 97,
+                "name": "Dependency Injection",
+                "slug": "dependency-injection",
+                "est_minutes": 19,
+                "topics": [
+                  {
+                    "content_id": 3021,
+                    "content_name": "Dependency Injection",
+                    "content_slug": "dependency-injection",
+                    "content_type": "Theory",
+                    "est_minutes": 19,
+                    "rank": 0
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 106,
+                "name": "Exceptions and Error Handling",
+                "slug": "exceptions-and-error-handling",
+                "est_minutes": 42,
+                "topics": [
+                  {
+                    "content_id": 3022,
+                    "content_name": "Exception Handling (LLD)",
+                    "content_slug": "exception-handling-lld",
+                    "content_type": "Theory",
+                    "est_minutes": 23,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 3026,
+                    "content_name": "Building Resilient Systems",
+                    "content_slug": "building-resilient-systems",
+                    "content_type": "Theory",
+                    "est_minutes": 19,
+                    "rank": 1
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 18,
+                "name": "Best practices in LLD",
+                "slug": "best-practices-in-lld",
+                "est_minutes": 115,
+                "topics": [
+                  {
+                    "content_id": 3025,
+                    "content_name": "All About API's",
+                    "content_slug": "all-about-api-s",
+                    "content_type": "Theory",
+                    "est_minutes": 55,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 3024,
+                    "content_name": "Database Design and Integration",
+                    "content_slug": "database-design-and-integration",
+                    "content_type": "Theory",
+                    "est_minutes": 24,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 3023,
+                    "content_name": "How to approach a LLD Interview",
+                    "content_slug": "how-to-approach-a-lld-interview",
+                    "content_type": "Theory",
+                    "est_minutes": 36,
+                    "rank": 2
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 125,
+                "name": "Interview Problems (Part-1)",
+                "slug": "interview-problems-part-1",
+                "est_minutes": 358,
+                "topics": [
+                  {
+                    "content_id": 3028,
+                    "content_name": "Parking Lot (Design)",
+                    "content_slug": "parking-lot-lld-part-1",
+                    "content_type": "Theory",
+                    "est_minutes": 38,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 3029,
+                    "content_name": "Parking Lot (Code)",
+                    "content_slug": "parking-lot-lld-part-2",
+                    "content_type": "Theory",
+                    "est_minutes": 29,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 3030,
+                    "content_name": "Logging Framework (Design)",
+                    "content_slug": "designing-logging-framework-part-1",
+                    "content_type": "Theory",
+                    "est_minutes": 38,
+                    "rank": 2
+                  },
+                  {
+                    "content_id": 1168,
+                    "content_name": "Logging Framework (Code)",
+                    "content_slug": "designing-logging-framework-part-2",
+                    "content_type": "Theory",
+                    "est_minutes": 22,
+                    "rank": 3
+                  },
+                  {
+                    "content_id": 3031,
+                    "content_name": "Traffic Signal System (Design)",
+                    "content_slug": "traffic-signal-system-design",
+                    "content_type": "Theory",
+                    "est_minutes": 60,
+                    "rank": 4
+                  },
+                  {
+                    "content_id": 3032,
+                    "content_name": "Traffic Signal System (Code)",
+                    "content_slug": "traffic-signal-system-code",
+                    "content_type": "Theory",
+                    "est_minutes": 24,
+                    "rank": 5
+                  },
+                  {
+                    "content_id": 1169,
+                    "content_name": "Vending Machine Design",
+                    "content_slug": "vending-machine-design",
+                    "content_type": "Theory",
+                    "est_minutes": 47,
+                    "rank": 6
+                  },
+                  {
+                    "content_id": 1170,
+                    "content_name": "Vending Machine Code",
+                    "content_slug": "vending-machine-code",
+                    "content_type": "Theory",
+                    "est_minutes": 27,
+                    "rank": 7
+                  },
+                  {
+                    "content_id": 1171,
+                    "content_name": "Task Management System Design",
+                    "content_slug": "task-management-system-design",
+                    "content_type": "Theory",
+                    "est_minutes": 51,
+                    "rank": 8
+                  },
+                  {
+                    "content_id": 1172,
+                    "content_name": "Task Management System Code",
+                    "content_slug": "task-management-system-code",
+                    "content_type": "Theory",
+                    "est_minutes": 22,
+                    "rank": 9
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 126,
+                "name": "Interview Problems (Part-2)",
+                "slug": "interview-problems-part-2",
+                "est_minutes": 209,
+                "topics": [
+                  {
+                    "content_id": 1173,
+                    "content_name": "PubSub System Design",
+                    "content_slug": "pubsub-system-design",
+                    "content_type": "Theory",
+                    "est_minutes": 42,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 1174,
+                    "content_name": "PubSub System Code",
+                    "content_slug": "pubsub-system-code",
+                    "content_type": "Theory",
+                    "est_minutes": 25,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 1175,
+                    "content_name": "ATM Machine Design",
+                    "content_slug": "atm-machine-design",
+                    "content_type": "Theory",
+                    "est_minutes": 48,
+                    "rank": 2
+                  },
+                  {
+                    "content_id": 1176,
+                    "content_name": "ATM Machine Code",
+                    "content_slug": "atm-machine-code",
+                    "content_type": "Theory",
+                    "est_minutes": 24,
+                    "rank": 3
+                  },
+                  {
+                    "content_id": 1179,
+                    "content_name": "Hotel Management System Design",
+                    "content_slug": "hotel-management-system-design",
+                    "content_type": "Theory",
+                    "est_minutes": 51,
+                    "rank": 4
+                  },
+                  {
+                    "content_id": 1180,
+                    "content_name": "Hotel Management System Code",
+                    "content_slug": "hotel-management-system-code",
+                    "content_type": "Theory",
+                    "est_minutes": 19,
+                    "rank": 5
+                  }
+                ],
+                "subcategories": []
+              },
+              {
+                "id": 127,
+                "name": "Interview Problems (Part-3)",
+                "slug": "interview-problems-part-3",
+                "est_minutes": 292,
+                "topics": [
+                  {
+                    "content_id": 1177,
+                    "content_name": "Elevator System Design",
+                    "content_slug": "elevator-system-design",
+                    "content_type": "Theory",
+                    "est_minutes": 44,
+                    "rank": 0
+                  },
+                  {
+                    "content_id": 1178,
+                    "content_name": "Elevator System Code",
+                    "content_slug": "elevator-system-code",
+                    "content_type": "Theory",
+                    "est_minutes": 26,
+                    "rank": 1
+                  },
+                  {
+                    "content_id": 1181,
+                    "content_name": "Digital Wallet Design",
+                    "content_slug": "digital-wallet-design",
+                    "content_type": "Theory",
+                    "est_minutes": 27,
+                    "rank": 2
+                  },
+                  {
+                    "content_id": 1183,
+                    "content_name": "Types of Locking Mechanism",
+                    "content_slug": "types-of-locking-mechanism",
+                    "content_type": "Theory",
+                    "est_minutes": 24,
+                    "rank": 3
+                  },
+                  {
+                    "content_id": 1182,
+                    "content_name": "Digital Wallet Code",
+                    "content_slug": "digital-wallet-code",
+                    "content_type": "Theory",
+                    "est_minutes": 19,
+                    "rank": 4
+                  },
+                  {
+                    "content_id": 1184,
+                    "content_name": "Ride Booking App Design",
+                    "content_slug": "ride-booking-app-design",
+                    "content_type": "Theory",
+                    "est_minutes": 45,
+                    "rank": 5
+                  },
+                  {
+                    "content_id": 1185,
+                    "content_name": "Ride Booking App Code",
+                    "content_slug": "ride-booking-app-code",
+                    "content_type": "Theory",
+                    "est_minutes": 24,
+                    "rank": 6
+                  },
+                  {
+                    "content_id": 1186,
+                    "content_name": "Music Streaming Platform Design",
+                    "content_slug": "music-streaming-platform-design",
+                    "content_type": "Theory",
+                    "est_minutes": 42,
+                    "rank": 7
+                  },
+                  {
+                    "content_id": 1188,
+                    "content_name": "Streaming Protocols",
+                    "content_slug": "streaming-protocols",
+                    "content_type": "Theory",
+                    "est_minutes": 14,
+                    "rank": 8
+                  },
+                  {
+                    "content_id": 1187,
+                    "content_name": "Music Streaming Platform Code",
+                    "content_slug": "music-streaming-platform-code",
+                    "content_type": "Theory",
+                    "est_minutes": 27,
+                    "rank": 9
+                  }
+                ],
+                "subcategories": []
+              }
+            ]
+          }
+        ],
+        "total_est_minutes": 9841
+      },
+      "generated_at": "2026-09-30T15:42:49.422Z"
+    },
+    "user_type_at_creation": "free",
+    "timezone": "Asia/Calcutta"
+  },
+  "timestamp": "2026-09-30T21:13:51.039264631+05:30",
+  "request_id": "req_1790783031022879773"
+}

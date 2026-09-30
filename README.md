@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SprintPrep
 
-## Getting Started
+> Turn your interview preparation into sprints.
 
-First, run the development server:
+Personal AI interview-prep planner: long-term roadmap → weekly sprints → daily tickets → spillover → adaptive replan.
+
+Inspired by the *category* of modern AI learning planners (e.g. Planly) — original UI, branding, and implementation.
+
+## Run locally
 
 ```bash
+cd /home/mukul/Desktop/SprintPrep
+npm install
+cp .env.example .env
+# Add GEMINI_API_KEY and set USE_MOCK_AI=false (or leave mock on)
+npm run db:setup
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Gemini (local)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```env
+AI_PROVIDER="gemini"
+GEMINI_API_KEY="your-key-from-aistudio.google.com"
+USE_MOCK_AI="false"
+```
 
-## Learn More
+## Free cloud deploy
 
-To learn more about Next.js, take a look at the following resources:
+See **[DEPLOY.md](./DEPLOY.md)** — Vercel (app) + Neon (Postgres) + Gemini, all free tiers.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Environment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```env
+DATABASE_URL="file:./dev.db"          # local SQLite
+# DATABASE_URL="postgresql://..."    # Neon on Vercel
+AI_PROVIDER="gemini"
+GEMINI_API_KEY=
+OPENAI_API_KEY=
+USE_MOCK_AI=false
+```
 
-## Deploy on Vercel
+## Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Dark sidebar + light workspace (productivity-app layout)
+- Dashboard: greeting, metrics, current sprint timeline, today's tickets
+- My Plan (16-week roadmap), Today's Sprint, Tickets, Progress, Mocks, Settings
+- Capacity-aware scheduling (~85% of study time)
+- Spillover + AI replan proposals
+- DSA tickets with real LeetCode/GFG links only
+- Sprint reviews labeled as AI observations
+- Toasts, skeletons, empty/error states
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Scripts
+
+| Command | Purpose |
+|--------|---------|
+| `npm run dev` | Dev server |
+| `npm run db:setup` | Push schema + seed content |
+| `npm run typecheck` | TypeScript |
+| `npm run lint` | ESLint |
+| `npm run build` | Production build |

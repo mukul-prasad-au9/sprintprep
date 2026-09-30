@@ -1,0 +1,218 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model UserProfile {
+  id                   String   @id @default(cuid())
+  name                 String
+  yearsExperience      String
+  targetRole           String
+  targetCompanies      String // JSON array
+  durationWeeks        Int
+  hoursPerDay          Float
+  daysPerWeek          Int
+  preferredStudyDays   String // JSON array of day names
+  dsaLanguage          String
+  dsaLevel             String
+  lldLevel             String
+  hldLevel             String
+  problemsSolved       Int      @default(0)
+  topicsCompleted      String // JSON array
+  topicsWeak           String // JSON array
+  topicsNotStarted     String // JSON array
+  revisionIntervals    String   @default("[1,7,21,45]") // days
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+  skills               Skill?
+  roadmaps             Roadmap[]
+  progress             Progress?
+}
+
+model Skill {
+  id             String      @id @default(cuid())
+  profileId      String      @unique
+  profile        UserProfile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  dsaScore       Int         @default(50)
+  lldScore       Int         @default(40)
+  hldScore       Int         @default(30)
+  communication  Int         @default(50)
+  weakAreas      String      @default("[]") // JSON array
+  updatedAt      DateTime    @updatedAt
+}
+
+model ContentItem {
+  id               String   @id
+  title            String
+  category         String // DSA | LLD | HLD | REVISION | MOCK
+  topic            String
+  subtopic         String?
+  difficulty       String // EASY | MEDIUM | HARD
+  estimatedMinutes Int
+  prerequisites    String   @default("[]") // JSON array of content IDs
+  skills           String   @default("[]") // JSON array
+  leetcodeUrl      String?
+  gfgUrl           String?
+  solutionUrl      String?
+  tags             String   @default("[]") // JSON array
+  isRevision       Boolean  @default(false)
+  problemStatement String?
+  expectedConcepts String? // JSON array
+  description      String?
+  createdAt        DateTime @default(now())
+  ticketItems      TicketItem[]
+  revisions        Revision[]
+}
+
+model Roadmap {
+  id              String      @id @default(cuid())
+  profileId       String
+  profile         UserProfile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  title           String
+  durationWeeks   Int
+  startDate       DateTime
+  status          String      @default("ACTIVE") // ACTIVE | COMPLETED | ARCHIVED
+  aiProvider      String?
+  rawPlanJson     String? // cached AI output
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  sprints         Sprint[]
+}
+
+model Sprint {
+  id           String      @id @default(cuid())
+  roadmapId    String
+  roadmap      Roadmap     @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
+  weekNumber   Int
+  title        String
+  objective    String?
+  startDate    DateTime
+  endDate      DateTime
+  status       String      @default("PLANNED") // PLANNED | ACTIVE | COMPLETED | NEEDS_REPLAN
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+  days         SprintDay[]
+  review       SprintReview?
+}
+
+model SprintDay {
+  id           String   @id @default(cuid())
+  sprintId     String
+  sprint       Sprint   @relation(fields: [sprintId], references: [id], onDelete: Cascade)
+  dayNumber    Int
+  date         DateTime
+  dayName      String
+  isStudyDay   Boolean  @default(true)
+  capacityMin  Int      @default(153)
+  plannedMin   Int      @default(0)
+  status       String   @default("PLANNED") // PLANNED | ACTIVE | COMPLETED | OVERLOADED
+  tickets      Ticket[]
+}
+
+model Ticket {
+  id               String     @id @default(cuid())
+  sprintDayId      String
+  sprintDay        SprintDay  @relation(fields: [sprintDayId], references: [id], onDelete: Cascade)
+  contentId        String
+  title            String
+  category         String
+  topic            String
+  difficulty       String
+  estimatedMinutes Int
+  priority         String     @default("MEDIUM") // HIGH | MEDIUM | LOW
+  status           String     @default("TODO") // TODO | IN_PROGRESS | DONE | SPILLED | SKIPPED
+  sortOrder        Int        @default(0)
+  notes            String?
+  solutionApproach String?
+  timeComplexity   String?
+  spaceComplexity  String?
+  startedAt        DateTime?
+  completedAt      DateTime?
+  spilledFromId    String?
+  createdAt        DateTime   @default(now())
+  updatedAt        DateTime   @updatedAt
+  items            TicketItem[]
+  spillovers       Spillover[]
+}
+
+model TicketItem {
+  id          String       @id @default(cuid())
+  ticketId    String
+  ticket      Ticket       @relation(fields: [ticketId], references: [id], onDelete: Cascade)
+  contentId   String?
+  content     ContentItem? @relation(fields: [contentId], references: [id])
+  title       String
+  leetcodeUrl String?
+  gfgUrl      String?
+  isCompleted Boolean      @default(false)
+  completedAt DateTime?
+  sortOrder   Int          @default(0)
+}
+
+model Progress {
+  id                String      @id @default(cuid())
+  profileId         String      @unique
+  profile           UserProfile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  ticketsCompleted  Int         @default(0)
+  ticketsMissed     Int         @default(0)
+  ticketsSpilled    Int         @default(0)
+  problemsSolved    Int         @default(0)
+  studyMinutes      Int         @default(0)
+  currentStreak     Int         @default(0)
+  longestStreak     Int         @default(0)
+  lastStudyDate     DateTime?
+  weeklyCompletion  Float       @default(0)
+  topicPerformance  String      @default("{}") // JSON
+  updatedAt         DateTime    @updatedAt
+}
+
+model Revision {
+  id           String       @id @default(cuid())
+  contentId    String
+  content      ContentItem  @relation(fields: [contentId], references: [id])
+  ticketId     String?
+  solvedAt     DateTime
+  revision1At  DateTime?
+  revision2At  DateTime?
+  revision3At  DateTime?
+  revision1Done Boolean     @default(false)
+  revision2Done Boolean     @default(false)
+  revision3Done Boolean     @default(false)
+  nextDueAt    DateTime?
+  status       String       @default("PENDING") // PENDING | DONE
+  createdAt    DateTime     @default(now())
+}
+
+model SprintReview {
+  id              String   @id @default(cuid())
+  sprintId        String   @unique
+  sprint          Sprint   @relation(fields: [sprintId], references: [id], onDelete: Cascade)
+  completedCount  Int
+  totalCount      Int
+  dsaCompleted    Int      @default(0)
+  dsaTotal        Int      @default(0)
+  lldCompleted    Int      @default(0)
+  lldTotal        Int      @default(0)
+  hldCompleted    Int      @default(0)
+  hldTotal        Int      @default(0)
+  insights        String // JSON array of insight strings
+  suggestions     String // JSON array
+  isAiGenerated   Boolean  @default(true)
+  createdAt       DateTime @default(now())
+}
+
+model Spillover {
+  id              String   @id @default(cuid())
+  ticketId        String
+  ticket          Ticket   @relation(fields: [ticketId], references: [id], onDelete: Cascade)
+  fromSprintDayId String
+  toSprintDayId   String?
+  reason          String?
+  status          String   @default("PENDING") // PENDING | RESCHEDULED | FAILED
+  createdAt       DateTime @default(now())
+  resolvedAt      DateTime?
+}
